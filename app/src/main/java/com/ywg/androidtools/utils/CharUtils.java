@@ -15,23 +15,23 @@ public class CharUtils {
 	 * @param cha 汉字
 	 * @return 如果cha不是汉字，返回null
 	 */
-	public static String[] getPinYinByChar(char cha){
+/*	public static String[] getPinYinByChar(char cha){
 		return PinyinHelper.toHanyuPinyinStringArray(cha);
-	}
+	}*/
 	
 	/**
 	 * (02)、获取字符cha的第一个拼音
 	 * @param cha 汉字
 	 * @return 如果cha不是汉字，返回null
 	 */
-	public static String getPinYinByCharOnlyFirst(char cha){
+	/*public static String getPinYinByCharOnlyFirst(char cha){
 		String[] pinyins = getPinYinByChar(cha);
         if (pinyins != null) {
             return pinyins[0];
         }else{
         	return null;
         }
-	}
+	}*/
 	
 	/**
 	 * (03)、判断字符cha是否是中文

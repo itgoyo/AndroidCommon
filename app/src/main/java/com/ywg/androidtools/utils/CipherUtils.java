@@ -66,15 +66,15 @@ public class CipherUtils {
     }
 
 
-    public static String base64Encode(String str) {
+ /*   public static String base64Encode(String str) {
         return Base64.encodeToString(str.getBytes(), Base64.DEFAULT);
-    }
+    }*/
 
 
-    public static String base64Decode(String str) {
+    /*public static String base64Decode(String str) {
         return Base64.decode(str.getBytes(), Base64.DEFAULT).toString();
     }
-
+*/
 
     public static String XorEncode(String str,String privatekey) {
         int[] snNum = new int[str.length()];

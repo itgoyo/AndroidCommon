@@ -238,9 +238,9 @@ public class SettingsUtils {
      * @param context 上下文
      * @return 媒体音量，取值范围为0-15；默认0
      */
-    public static int getMediaVolume(Context context) {
+    /*public static int getMediaVolume(Context context) {
         return Settings.System.getInt(context.getContentResolver(), Settings.System.VOLUME_MUSIC, 0);
-    }
+    }*/
 
     /**
      * 获取媒体音量，需要WRITE_APN_SETTINGS权限
@@ -248,7 +248,7 @@ public class SettingsUtils {
      * @param context 上下文
      * @return 媒体音量，取值范围为0-15
      */
-    public static boolean setMediaVolume(Context context, int mediaVloume) {
+    /*public static boolean setMediaVolume(Context context, int mediaVloume) {
         if (mediaVloume < 0) {
             mediaVloume = 0;
         } else if (mediaVloume > 15) {
@@ -258,7 +258,7 @@ public class SettingsUtils {
             }
         }
         return Settings.System.putInt(context.getContentResolver(), Settings.System.VOLUME_MUSIC, mediaVloume);
-    }
+    }*/
 
     /**
      * 获取铃声音量，需要WRITE_APN_SETTINGS权限
@@ -266,9 +266,9 @@ public class SettingsUtils {
      * @param context 上下文
      * @return 铃声音量，取值范围为0-7；默认为0
      */
-    public static int getRingVolume(Context context) {
+  /*  public static int getRingVolume(Context context) {
         return Settings.System.getInt(context.getContentResolver(), Settings.System.VOLUME_RING, 0);
-    }
+    }*/
 
     /**
      * 获取媒体音量
@@ -276,7 +276,7 @@ public class SettingsUtils {
      * @param context 上下文
      * @return 媒体音量，取值范围为0-7
      */
-    public static boolean setRingVolume(Context context, int ringVloume) {
+   /* public static boolean setRingVolume(Context context, int ringVloume) {
         if (ringVloume < 0) {
             ringVloume = 0;
         } else if (ringVloume > 7) {
@@ -286,5 +286,5 @@ public class SettingsUtils {
             }
         }
         return Settings.System.putInt(context.getContentResolver(), Settings.System.VOLUME_MUSIC, ringVloume);
-    }
+    }*/
 }
