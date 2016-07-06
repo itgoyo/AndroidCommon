@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ywg.androidtools.demo.SmartTabLayoutActivity">
+
+    <com.ywg.androidtools.widget.smarttablayout.SmartTabLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/smart_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="4dp"
+        app:stl_defaultTabTextColor="@android:color/white"
+        app:stl_distributeEvenly="true"
+        app:stl_indicatorColor="@color/colorAccent"
+        app:stl_indicatorCornerRadius="1.5dp"
+        app:stl_indicatorInterpolation="smart"
+        app:stl_indicatorThickness="3dp"
+        app:stl_underlineColor="@android:color/transparent"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/smart_tab_layout"/>
+</RelativeLayout>
