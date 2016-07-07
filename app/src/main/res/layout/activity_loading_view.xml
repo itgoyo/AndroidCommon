@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVCircularCD
+                        android:id="@+id/lv_circularCD"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVCircularRing
+                        android:id="@+id/lv_circularring"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVCircular
+                        android:id="@+id/lv_circular"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVCircularSmile
+                        android:id="@+id/lv_circularSmile"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVCircularJump
+                        android:id="@+id/lv_circularJump"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVCircularZoom
+                        android:id="@+id/lv_circularZoom"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVPlayBall
+                        android:id="@+id/lv_playball"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.ywg.androidtools.widget.loadingview.LVNews
+                        android:id="@+id/lv_news"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <com.ywg.androidtools.widget.loadingview.LVEatBeans
+                        android:id="@+id/lv_eatBeans"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:onClick="startAnim"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:onClick="startAnimAll"
+        android:text="start all"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:onClick="stopAnim"
+        android:text="stop"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
