@@ -22,7 +22,7 @@ public class AppManager {
     /**
      * 单一实例
      */
-    public static AppManager getAppManager() {
+    public static AppManager getInstance() {
         if (instance == null) {
             instance = new AppManager();
         }
@@ -118,7 +118,7 @@ public class AppManager {
      * 结束所有Activity
      */
     public void finishAllActivity() {
-        for (int i = 0; i < activityStack.size(); i++) {
+        for (int i = 0,size = activityStack.size();i < size; i++) {
             if (null != activityStack.get(i)) {
                 finishActivity(activityStack.get(i));
                 break;

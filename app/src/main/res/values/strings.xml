@@ -17,4 +17,9 @@
 
     <string name="marquee_text">心中有阳光，脚底有力量！</string>
     <string name="marquee_texts">心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！</string>
+
+    <string name="action_strock">边框模式</string>
+    <string name="action_fill">填充模式</string>
+
+
 </resources>
