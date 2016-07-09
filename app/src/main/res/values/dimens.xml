@@ -9,4 +9,13 @@
     <dimen name="mtf_corner_radius">4dp</dimen>
 
     <dimen name="tab_height">48dp</dimen>
+
+    <!--CircularProgress-->
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+    <dimen name="horizontal_margin">50dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+
+
+    <dimen name="shadow_height">3dp</dimen>
 </resources>

@@ -15,11 +15,19 @@
     <string name="enable_title">enable/disable other SwitchButtons</string>
 
 
+    <!--MarqueeView-->
     <string name="marquee_text">心中有阳光，脚底有力量！</string>
     <string name="marquee_texts">心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！</string>
 
+    <!---->
     <string name="action_strock">边框模式</string>
     <string name="action_fill">填充模式</string>
 
+    <!--NumberProgressBar-->
+    <string name="finish">ProgressBar is finished.</string>
 
+
+    <!--ToolbarPanelLayout-->
+    <string name="open_panel">Open The Panel</string>
+    <string name="close_panel">Close The Panel</string>
 </resources>

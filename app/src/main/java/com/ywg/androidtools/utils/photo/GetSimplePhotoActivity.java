@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 
-import com.ywg.androidtools.utils.IntentUtils;
+import com.ywg.androidtools.utils.IntentUtil;
 
 import java.io.File;
 
@@ -45,7 +45,7 @@ public class GetSimplePhotoActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (!IntentUtils.isBundleEmpty(getIntent())) {
+        if (!IntentUtil.isBundleEmpty(getIntent())) {
             Bundle bundle = getIntent().getExtras();
             if (bundle.getInt(KEY_FROM_WAY, VALUE_FROM_ALBUM) == VALUE_FROM_ALBUM) {
                 // 进行版本判断 see:http://blog.csdn.net/tempersitu/article/details/20557383

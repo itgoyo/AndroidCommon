@@ -685,7 +685,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(SharedPreferences preferences, String key, Class<T> clas){
 		String configJson = preferences.getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return (T) new Gson().fromJson(configJson, clas);
 		}else{
 			return null;
@@ -703,7 +703,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(Context context, String preferencesName, int mode, String key, Class<T> clas){
 		String configJson = context.getSharedPreferences(preferencesName, mode).getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return (T) new Gson().fromJson(configJson, clas);
 		}else{
 			return null;
@@ -720,7 +720,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(Context context, String preferencesName, String key, Class<T> clas){
 		String configJson = context.getSharedPreferences(preferencesName, Context.MODE_PRIVATE).getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return (T) new Gson().fromJson(configJson, clas);
 		}else{
 			return null;
@@ -736,7 +736,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(Context context, String key, Class<T> clas){
 		String configJson = PreferenceManager.getDefaultSharedPreferences(context).getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return (T) new Gson().fromJson(configJson, clas);
 		}else{
 			return null;
@@ -752,7 +752,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(SharedPreferences preferences, String key, Type typeOfT){
 		String configJson = preferences.getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return new Gson().fromJson(configJson, typeOfT);
 		}else{
 			return null;
@@ -770,7 +770,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(Context context, String preferencesName, int mode, String key, Type typeOfT){
 		String configJson = context.getSharedPreferences(preferencesName, mode).getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return new Gson().fromJson(configJson, typeOfT);
 		}else{
 			return null;
@@ -787,7 +787,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(Context context, String preferencesName, String key, Type typeOfT){
 		String configJson = context.getSharedPreferences(preferencesName, Context.MODE_PRIVATE).getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return new Gson().fromJson(configJson, typeOfT);
 		}else{
 			return null;
@@ -803,7 +803,7 @@ public class PreferencesUtils {
 	 */
 	public static <T> T getObject(Context context, String key, Type typeOfT){
 		String configJson = PreferenceManager.getDefaultSharedPreferences(context).getString(key, null);
-		if(StringUtils.isNotEmpty(configJson)){
+		if(StringUtil.isNotEmpty(configJson)){
 			return new Gson().fromJson(configJson, typeOfT);
 		}else{
 			return null;

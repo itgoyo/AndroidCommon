@@ -29,8 +29,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.ywg.androidtools.utils.DisplayUtil;
-import com.ywg.androidtools.utils.LogUtils;
-import com.ywg.androidtools.utils.StringUtils;
+import com.ywg.androidtools.utils.LogUtil;
+import com.ywg.androidtools.utils.StringUtil;
 
 /**
  * Web页面
@@ -161,7 +161,7 @@ public class WebActivity extends AppCompatActivity {
      * Load url
      */
     private void loadUrl() {
-        if (!StringUtils.isEmpty(mUrl)) {
+        if (!StringUtil.isEmpty(mUrl)) {
             mWebView.loadUrl(mUrl);
             if (mShowTitle) {
                 mTitle.setText(mUrl);
@@ -178,17 +178,17 @@ public class WebActivity extends AppCompatActivity {
 
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
-            LogUtils.v("WebView Page Started");
+            LogUtil.v("WebView Page Started");
         }
 
         @Override
         public void onPageFinished(WebView view, String url) {
-            LogUtils.v("WebView Page Finished");
+            LogUtil.v("WebView Page Finished");
         }
 
         @Override
         public void onLoadResource(WebView view, String url) {
-            LogUtils.v("WebView Load Resource");
+            LogUtil.v("WebView Load Resource");
         }
 
         @Deprecated

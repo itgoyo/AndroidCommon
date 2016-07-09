@@ -40,6 +40,7 @@ public class ExitAppActivity3 extends AppCompatActivity {
                 exitTime = System.currentTimeMillis();
             } else {
                 finish();
+                System.exit(0);
             }
             return true;
         }

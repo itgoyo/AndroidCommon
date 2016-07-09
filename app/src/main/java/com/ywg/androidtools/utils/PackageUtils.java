@@ -150,9 +150,9 @@ public class PackageUtils {
      * @return
      */
     public static boolean isInsatalled(Context context, String packageName) {
-        if (!StringUtils.isEmpty(packageName)) {
+        if (!StringUtil.isEmpty(packageName)) {
             List<PackageInfo> list = getInsatalledPackageInfos(context);
-            if (!CollectionUtils.isEmpty(list)) {
+            if (!CollectionUtil.isEmpty(list)) {
                 for (PackageInfo pi : list) {
                     if (packageName.equalsIgnoreCase(pi.packageName)) {
                         return true;

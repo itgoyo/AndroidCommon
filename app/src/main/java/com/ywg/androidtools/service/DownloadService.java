@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import com.ywg.androidtools.utils.AppUtils;
+import com.ywg.androidtools.utils.AppUtil;
 
 public class DownloadService extends Service {
 
@@ -73,7 +73,7 @@ public class DownloadService extends Service {
                 case DownloadManager.STATUS_RUNNING:
                     break;*/
                 case DownloadManager.STATUS_SUCCESSFUL:
-                    AppUtils.installApk(this, filePath);
+                    AppUtil.installApk(this, filePath);
                     break;
             }
         }

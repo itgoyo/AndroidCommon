@@ -90,7 +90,7 @@ public class DownloadUtil {
                     cursor.close();
                     if (filePath != null) {
                         if (filePath.contains(context.getPackageName())) {
-                            AppUtils.installApk(context, filePath.trim().substring(7));
+                            AppUtil.installApk(context, filePath.trim().substring(7));
                         }
                     } else {
                         Toast.makeText(context, "网络不给力", Toast.LENGTH_SHORT).show();

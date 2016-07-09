@@ -108,6 +108,6 @@ public class DialogUtils {
 	 * @param close 点击是否关闭
 	 */
 	public static void setDialogClickClose(AlertDialog alertDialog, boolean close){
-		ReflectUtils.setField(alertDialog, "mShowing", close, true, true);
+		ReflectUtil.setField(alertDialog, "mShowing", close, true, true);
 	}
 }
