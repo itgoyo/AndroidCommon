@@ -11,7 +11,7 @@
         android:layout_height="30dp"
         android:background="@color/blue">
 
-        <com.ywg.androidtools.widget.MarqueeView
+        <com.ywg.androidcommon.widget.MarqueeView
             android:id="@+id/marqueeView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -37,7 +37,7 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_red_loudspeaker"/>
 
-        <com.ywg.androidtools.widget.MarqueeView
+        <com.ywg.androidcommon.widget.MarqueeView
             android:id="@+id/marqueeView4"
             android:layout_width="200dp"
             android:layout_height="match_parent"
@@ -65,7 +65,7 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_red_loudspeaker"/>
 
-        <com.ywg.androidtools.widget.MarqueeView
+        <com.ywg.androidcommon.widget.MarqueeView
             android:id="@+id/marqueeView3"
             android:layout_width="200dp"
             android:layout_height="match_parent"
@@ -94,7 +94,7 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_loudspeaker"/>
 
-        <com.ywg.androidtools.widget.MarqueeView
+        <com.ywg.androidcommon.widget.MarqueeView
             android:id="@+id/marqueeView2"
             android:layout_width="100dp"
             android:layout_height="match_parent"
@@ -122,7 +122,7 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_loudspeaker"/>
 
-        <com.ywg.androidtools.widget.MarqueeView
+        <com.ywg.androidcommon.widget.MarqueeView
             android:id="@+id/marqueeView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

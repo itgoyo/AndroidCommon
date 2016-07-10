@@ -14,7 +14,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <com.ywg.androidtools.widget.WaveLoadingView
+        <com.ywg.androidcommon.widget.WaveLoadingView
             android:id="@+id/waveLoadingView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

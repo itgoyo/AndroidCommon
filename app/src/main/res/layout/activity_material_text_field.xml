@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#3FFF"/>
 
-    <com.ywg.androidtools.widget.MaterialTextField
+    <com.ywg.androidcommon.widget.MaterialTextField
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -38,6 +38,6 @@
             android:textColorHint="#666"
             android:textSize="15sp" />
 
-    </com.ywg.androidtools.widget.MaterialTextField>
+    </com.ywg.androidcommon.widget.MaterialTextField>
 
 </LinearLayout>

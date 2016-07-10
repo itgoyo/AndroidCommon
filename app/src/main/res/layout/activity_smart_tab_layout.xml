@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ywg.androidtools.demo.SmartTabLayoutActivity">
+    tools:context="com.ywg.androidcommon.demo.SmartTabLayoutActivity">
 
-    <com.ywg.androidtools.widget.smarttablayout.SmartTabLayout
+    <com.ywg.androidcommon.widget.smarttablayout.SmartTabLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/smart_tab_layout"

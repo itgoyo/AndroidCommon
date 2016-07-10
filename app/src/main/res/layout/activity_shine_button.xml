@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.ywg.androidtools.widget.shinebutton.ShineButton
+    <com.ywg.androidcommon.widget.shinebutton.ShineButton
         android:id="@+id/po_image0"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -17,7 +17,7 @@
         app:btn_fill_color="#999933"
         app:siShape="@raw/heart"/>
 
-    <com.ywg.androidtools.widget.shinebutton.ShineButton
+    <com.ywg.androidcommon.widget.shinebutton.ShineButton
         android:id="@+id/po_image1"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -38,7 +38,7 @@
         app:small_shine_offset_angle="20"/>
 
 
-    <com.ywg.androidtools.widget.shinebutton.ShineButton
+    <com.ywg.androidcommon.widget.shinebutton.ShineButton
         android:id="@+id/po_image2"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -49,7 +49,7 @@
         app:btn_fill_color="#F44336"
         app:siShape="@raw/smile"/>
 
-    <com.ywg.androidtools.widget.shinebutton.ShineButton
+    <com.ywg.androidcommon.widget.shinebutton.ShineButton
         android:id="@+id/po_image3"
         android:layout_width="50dp"
         android:layout_height="50dp"
