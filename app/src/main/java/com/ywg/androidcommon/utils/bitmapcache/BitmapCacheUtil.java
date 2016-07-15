@@ -37,7 +37,7 @@ public class BitmapCacheUtil {
             imageView.setImageBitmap(bitmap);
             System.out.println("从本地SD卡加载的图片");
             //从本地获取图片后,保存至内存中
-            mMemoryCacheUtils.setBitmapToMemory(url, bitmap);
+            mMemoryCacheUtils.addBitmapToMemory(url, bitmap);
             return;
         }
         //3.网络缓存

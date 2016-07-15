@@ -102,5 +102,10 @@
         <attr name="circle_color_move" format="color"/>
     </declare-styleable>
 
+    <declare-styleable name="ShSwitchView">
+        <attr name="tintColor" format="reference|color" />
+        <attr name="outerStrokeWidth" format="reference|dimension" />
+        <attr name="shadowSpace" format="reference|dimension" />
+    </declare-styleable>
 
 </resources>

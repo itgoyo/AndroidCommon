@@ -5,6 +5,9 @@ import android.support.v4.util.LruCache;
 
 /**
  * 三级缓存之内存缓存
+ * Lru算法
+    Lru: Least Recently Used 近期最少使用算法。
+    Android提供了LruCache类来实现这个缓存算法。
  */
 public class MemoryCacheUtil {
 
@@ -14,12 +17,12 @@ public class MemoryCacheUtil {
 
     public MemoryCacheUtil() {
         // lruCache最大允许内存一般为Android系统分给每个应用程序内存大小（默认Android系统给每个应用程序分配16兆内存）的八分之一（推荐）
-        // 获得当前应用程序运行的内存大小
-        long mCurrentMemory = Runtime.getRuntime().maxMemory();
+        // 获得当前应用程序运行的最大可用内存大小
+        long maxMemory = Runtime.getRuntime().maxMemory();
         //得到手机最大允许内存的1/8,即超过指定内存,则开始回收
-        int maxSize = (int) (mCurrentMemory / 8);
+        int cacheSize = (int) (maxMemory / 8);
         //需要传入允许的内存最大值,虚拟机默认内存16M,真机不一定相同
-        mMemoryCache = new LruCache<String, Bitmap>(maxSize) {
+        mMemoryCache = new LruCache<String, Bitmap>(cacheSize) {
             //用于计算每个条目的大小
             @Override
             protected int sizeOf(String key, Bitmap value) {
@@ -59,13 +62,14 @@ public class MemoryCacheUtil {
      * @param url
      * @param bitmap
      */
-    public void setBitmapToMemory(String url, Bitmap bitmap) {
+    public void addBitmapToMemory(String url, Bitmap bitmap) {
         // 向内存中设置，key,value的形式，首先想到HashMap
         //mMemoryCache.put(url, bitmap);//1.强引用方法
         /*2.弱引用方法
         mMemoryCache.put(url, new SoftReference<>(bitmap));
         */
-
-        mMemoryCache.put(url, bitmap);
+        if (getBitmapFromMemory(url) == null) {
+            mMemoryCache.put(url, bitmap);
+        }
     }
 }

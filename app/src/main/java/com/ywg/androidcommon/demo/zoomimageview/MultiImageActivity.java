@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.zoomimageview;
+package com.ywg.androidcommon.demo.zoomimageview;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -26,6 +26,13 @@ public class MultiImageActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mAdapter = new MultiImageAdapter(this, getData());
         mViewPager.setAdapter(mAdapter);
+        mAdapter.setOnCickedListener(new MultiImageAdapter.OnCickedListener() {
+            @Override
+            public void onClicked() {
+                finish();
+            }
+        });
+
     }
 
     /*?imageView2/2/w/900/h/1600*/

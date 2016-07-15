@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.zoomimageview;
+package com.ywg.androidcommon.demo.zoomimageview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.bumptech.glide.Glide;
 import com.ywg.androidcommon.R;
+import com.ywg.androidcommon.widget.ZoomImageView;
 
 
 /**
@@ -34,6 +35,12 @@ public class SingleImageActivity extends AppCompatActivity implements View.OnCli
                 Log.i("test", mZoomImageView.getWidth() + "," + mZoomImageView.getHeight());
                 width = mZoomImageView.getWidth();
                 height = mZoomImageView.getHeight();
+            }
+        });
+        mZoomImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
     }

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.zoomimageview;
+package com.ywg.androidcommon.demo.zoomimageview;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
+import com.ywg.androidcommon.widget.ZoomImageView;
 
 import java.util.List;
 
@@ -36,6 +37,14 @@ public class MultiImageAdapter extends PagerAdapter {
         ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
+        ziv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(mOnCickedListener != null) {
+                    mOnCickedListener.onClicked();
+                }
+            }
+        });
         ziv.reSetState();
         Glide.with(mContext)
                 .load(mStringList.get(position))
@@ -48,6 +57,16 @@ public class MultiImageAdapter extends PagerAdapter {
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.removeView((View) object);
+    }
+
+    public OnCickedListener mOnCickedListener;
+
+    public interface OnCickedListener{
+        void onClicked();
+    }
+
+    public void setOnCickedListener(OnCickedListener onCickedListener) {
+        this.mOnCickedListener = onCickedListener;
     }
 
 }

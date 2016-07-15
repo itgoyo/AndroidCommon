@@ -15,4 +15,8 @@
 
     <color name="shadow_color">#75000000</color>
 
+    <!--PhotoPicker-->
+    <color name="theme_body">#cc22292c</color>
+    <color name="status_bar">#303135</color>
+    <color name="top_bar">#9f556061</color>
 </resources>

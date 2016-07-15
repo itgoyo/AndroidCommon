@@ -56,7 +56,6 @@ public class NetCacheUtil {
         protected Bitmap doInBackground(Object[] params) {
             ivPic = (ImageView) params[0];
             url = (String) params[1];
-
             return downloadBitmap(url);
         }
 
@@ -82,9 +81,9 @@ public class NetCacheUtil {
                 System.out.println("从网络缓存图片啦.....");
 
                 //从网络获取图片后,保存至本地缓存
-                mLocalCacheUtils.setBitmapToLocal(url, result);
+                mLocalCacheUtils.addBitmapToLocal(url, result);
                 //保存至内存中
-                mMemoryCacheUtils.setBitmapToMemory(url, result);
+                mMemoryCacheUtils.addBitmapToMemory(url, result);
 
             }
         }
