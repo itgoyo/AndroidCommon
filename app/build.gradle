@@ -13,6 +13,7 @@ android {
     }
     buildTypes {
         release {
+            debuggable true
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -23,7 +24,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
-
     compile 'com.android.support:recyclerview-v7:24.0.0'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'org.adw.library:discrete-seekbar:1.0.1'
@@ -32,7 +32,13 @@ dependencies {
     compile 'com.google.code.gson:gson:2.7'
     compile 'com.github.chrisbanes:PhotoView:1.2.6'
     compile files('libs/universal-image-loader-1.9.5.jar')
-
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.squareup.okio:okio:1.4.0'
+    compile 'cc.solart:turbo-recyclerview-helper:1.2.1'
+    compile files('libs/libammsdk-wx-3.1.1.jar')
+    compile files('libs/alipaySdk-20160516.jar')
+    compile files('libs/httpcore-4.2.4.jar')
+    compile files('libs/httpclient-4.2.5.jar')
+    compile 'com.coolerfall:android-app-daemon:1.2.0'
+    compile 'com.bigkoo:pickerview:2.0.8'
 }

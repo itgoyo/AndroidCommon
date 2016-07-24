@@ -52,6 +52,7 @@ public final class BitmapUtil {
         throw new Error("Do not need instantiate!");
     }
 
+
     /**
      * 根据资源id获取指定大小的Bitmap对象
      *

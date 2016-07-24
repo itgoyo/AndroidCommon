@@ -14,7 +14,7 @@ import java.util.Date;
 public class DateUtil {
 
     /**
-     * 英文简写如：2010
+     * 英文简写如：2016
      */
     public static String FORMAT_Y = "yyyy";
 
@@ -29,17 +29,17 @@ public class DateUtil {
     public static String FORMAT_MDHM = "MM-dd HH:mm";
 
     /**
-     * 英文简写（默认）如：2010-12-01
+     * 英文简写（默认）如：2016-12-01
      */
     public static String FORMAT_YMD = "yyyy-MM-dd";
 
     /**
-     * 英文全称  如：2010-12-01 23:15
+     * 英文全称  如：2016-12-01 23:15
      */
     public static String FORMAT_YMDHM = "yyyy-MM-dd HH:mm";
 
     /**
-     * 英文全称  如：2010-12-01 23:15:06
+     * 英文全称  如：2016-12-01 23:15:06
      */
     public static String FORMAT_YMDHMS = "yyyy-MM-dd HH:mm:ss";
 
@@ -54,22 +54,22 @@ public class DateUtil {
     public static String FORMAT_FULL_SN = "yyyyMMddHHmmssS";
 
     /**
-     * 中文简写  如：2010年12月01日
+     * 中文简写  如：2016年12月01日
      */
     public static String FORMAT_YMD_CN = "yyyy年MM月dd日";
 
     /**
-     * 中文简写  如：2010年12月01日  12时
+     * 中文简写  如：2016年12月01日  12时
      */
     public static String FORMAT_YMDH_CN = "yyyy年MM月dd日 HH时";
 
     /**
-     * 中文简写  如：2010年12月01日  12时12分
+     * 中文简写  如：2016年12月01日  12时12分
      */
     public static String FORMAT_YMDHM_CN = "yyyy年MM月dd日 HH时mm分";
 
     /**
-     * 中文全称  如：2010年12月01日  23时15分06秒
+     * 中文全称  如：2016年12月01日  23时15分06秒
      */
     public static String FORMAT_YMDHMS_CN = "yyyy年MM月dd日  HH时mm分ss秒";
 

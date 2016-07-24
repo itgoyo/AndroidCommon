@@ -20,4 +20,8 @@
     <dimen name="shadow_height">3dp</dimen>
     <dimen name="folder_padding">10dp</dimen>
     <dimen name="folder_cover_size">72dp</dimen>
+
+    <dimen name="textSize_sidebar">10sp</dimen>
+    <dimen name="textSize_sidebar_choose">12sp</dimen>
+    <dimen name="textSize_sidebar_padding">20sp</dimen>
 </resources>
