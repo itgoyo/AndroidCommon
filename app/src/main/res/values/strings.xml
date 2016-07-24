@@ -55,4 +55,6 @@
     <string name="cycle_sure">确定</string>
     <string name="vibration">震动</string>
     <string name="ring">铃声</string>
+
+    <string name="perf_test">Perf test</string>
 </resources>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- banner start -->
     <declare-styleable name="BannerLayoutStyle">
-        <attr name="selectedIndicatorColor" format="color|reference" />
-        <attr name="unSelectedIndicatorColor" format="color|reference" />
+        <attr name="selectedIndicatorColor" format="color|reference"/>
+        <attr name="unSelectedIndicatorColor" format="color|reference"/>
         <attr name="indicatorShape" format="enum">
-            <enum name="rect" value="0" />
-            <enum name="oval" value="1" />
+            <enum name="rect" value="0"/>
+            <enum name="oval" value="1"/>
         </attr>
 
-        <attr name="selectedIndicatorHeight" format="dimension|reference" />
-        <attr name="selectedIndicatorWidth" format="dimension|reference" />
+        <attr name="selectedIndicatorHeight" format="dimension|reference"/>
+        <attr name="selectedIndicatorWidth" format="dimension|reference"/>
 
-        <attr name="unSelectedIndicatorHeight" format="dimension|reference" />
-        <attr name="unSelectedIndicatorWidth" format="dimension|reference" />
+        <attr name="unSelectedIndicatorHeight" format="dimension|reference"/>
+        <attr name="unSelectedIndicatorWidth" format="dimension|reference"/>
 
         <attr name="indicatorPosition" format="enum">
-            <enum name="centerBottom" value="0" />
-            <enum name="rightBottom" value="1" />
-            <enum name="leftBottom" value="2" />
-            <enum name="centerTop" value="3" />
-            <enum name="rightTop" value="4" />
-            <enum name="leftTop" value="5" />
+            <enum name="centerBottom" value="0"/>
+            <enum name="rightBottom" value="1"/>
+            <enum name="leftBottom" value="2"/>
+            <enum name="centerTop" value="3"/>
+            <enum name="rightTop" value="4"/>
+            <enum name="leftTop" value="5"/>
         </attr>
 
-        <attr name="indicatorSpace" format="dimension|reference" />
-        <attr name="indicatorMargin" format="dimension|reference" />
-        <attr name="autoPlayDuration" format="integer|reference" />
-        <attr name="scrollDuration" format="integer|reference" />
+        <attr name="indicatorSpace" format="dimension|reference"/>
+        <attr name="indicatorMargin" format="dimension|reference"/>
+        <attr name="autoPlayDuration" format="integer|reference"/>
+        <attr name="scrollDuration" format="integer|reference"/>
         <attr name="isAutoPlay" format="boolean"/>
         <attr name="defaultImage" format="integer|reference"/>
     </declare-styleable>
@@ -36,10 +36,10 @@
 
     <!--CircleImageView-->
     <declare-styleable name="CircleImageView">
-        <attr name="civ_border_width" format="dimension" />
-        <attr name="civ_border_color" format="color" />
-        <attr name="civ_border_overlay" format="boolean" />
-        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
     </declare-styleable>
 
     <declare-styleable name="MaterialTextField">
@@ -103,9 +103,9 @@
     </declare-styleable>
 
     <declare-styleable name="ShSwitchView">
-        <attr name="tintColor" format="reference|color" />
-        <attr name="outerStrokeWidth" format="reference|dimension" />
-        <attr name="shadowSpace" format="reference|dimension" />
+        <attr name="tintColor" format="reference|color"/>
+        <attr name="outerStrokeWidth" format="reference|dimension"/>
+        <attr name="shadowSpace" format="reference|dimension"/>
     </declare-styleable>
 
     <declare-styleable name="WaveSideBarView">
@@ -113,6 +113,14 @@
         <attr name="sidebarBackgroundColor" format="color|reference"/>
         <attr name="sidebarChooseTextColor" format="color|reference"/>
         <attr name="sidebarTextSize" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ticker_TickerView">
+        <attr name="ticker_textColor" format="reference|color"/>
+        <attr name="ticker_textSize" format="reference|dimension"/>
+        <attr name="ticker_animationDuration" format="reference|integer"/>
+        <attr name="android:gravity" tools:ignore="ResourceName"/>
     </declare-styleable>
 
 </resources>

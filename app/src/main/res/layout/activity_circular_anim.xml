@@ -50,6 +50,7 @@
             android:background="@color/colorAccent"
             android:text="变变变－进度条"
             android:textColor="@android:color/white"/>
+
     </FrameLayout>
 
 </LinearLayout>

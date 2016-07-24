@@ -33,7 +33,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".demo.CircularAnimActivity">
+        <activity android:name=".demo.tickerview.TickerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -71,7 +71,8 @@
         <activity
             android:name=".alarmclock.AlarmClockActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-       <activity android:name=".demo.EmptyActivity" />
+        <activity android:name=".demo.EmptyActivity"/>
+
     </application>
 
 </manifest>
