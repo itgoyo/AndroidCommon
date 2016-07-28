@@ -2,4 +2,8 @@
 <resources>
 
     <item name="item_click_support" type="id" />
+
+    <item name="adapter_view_header_layout" type="layout"/>
+    <item name="adapter_view_footer_layout" type="layout"/>
+    <item name="adapter_view_load_layout" type="layout"/>
 </resources>

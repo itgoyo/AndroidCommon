@@ -87,4 +87,7 @@ public final class ShortCutUtil {
                 Intent.ACTION_MAIN).setComponent(comp));
         activity.sendBroadcast(shortcut);
     }
+
+
+
 }

@@ -123,4 +123,19 @@
         <attr name="android:gravity" tools:ignore="ResourceName"/>
     </declare-styleable>
 
+    <declare-styleable name="SwitchButton1">
+        <attr name="frameDrawable" format="reference|color"/>
+        <attr name="stateDrawable" format="reference|color"/>
+        <attr name="stateMaskDrawable" format="reference|color"/>
+        <attr name="sliderDrawable" format="reference|color"/>
+        <attr name="withTextInterval" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSearchBar">
+        <attr name="iconRight" format="reference"/>
+        <attr name="iconLeft" format="reference"/>
+        <attr name="hint" format="string"/>
+        <attr name="maxSuggestionsCount" format="string"/>
+        <attr name="speechMode" format="boolean"/>
+    </declare-styleable>
 </resources>

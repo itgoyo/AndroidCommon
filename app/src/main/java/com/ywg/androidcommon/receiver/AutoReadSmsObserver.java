@@ -8,7 +8,7 @@ import android.os.Handler;
 import android.provider.Telephony;
 import android.util.Log;
 
-import com.ywg.androidcommon.demo.AutoReadSmsActivity;
+import com.ywg.androidcommon.sample.AutoReadSmsActivity;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
