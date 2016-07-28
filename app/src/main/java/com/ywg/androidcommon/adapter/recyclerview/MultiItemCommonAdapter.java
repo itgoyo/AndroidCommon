@@ -3,7 +3,7 @@ package com.ywg.androidcommon.adapter.recyclerview;
 import android.content.Context;
 import android.view.ViewGroup;
 
-import com.ywg.androidcommon.adapter.ViewHolder;
+import com.ywg.androidcommon.adapter.CommonViewHolder;
 
 
 import java.util.List;
@@ -29,11 +29,11 @@ public abstract class MultiItemCommonAdapter<T> extends CommonAdapter<T> {
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (mMultiItemTypeSupport == null) return super.onCreateViewHolder(parent, viewType);
 
         int layoutId = mMultiItemTypeSupport.getLayoutId(viewType);
-        ViewHolder holder = ViewHolder.get(mContext, null, parent, layoutId, -1);
+        CommonViewHolder holder = CommonViewHolder.get(mContext, null, parent, layoutId, -1);
         setListener(parent, holder, viewType);
         return holder;
     }

@@ -3,7 +3,7 @@ package com.ywg.androidcommon.adapter.recyclerview;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 
-import com.ywg.androidcommon.adapter.ViewHolder;
+import com.ywg.androidcommon.adapter.CommonViewHolder;
 
 
 import java.util.LinkedHashMap;
@@ -150,7 +150,7 @@ public abstract class SectionAdapter<T> extends MultiItemCommonAdapter<T> {
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(CommonViewHolder holder, int position) {
         position = getIndexForPosition(position);
         if (holder.getItemViewType() == TYPE_SECTION) {
             holder.setText(mSectionSupport.sectionTitleTextViewId(), mSectionSupport.getTitle(mDatas.get(position)));

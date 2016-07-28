@@ -20,14 +20,14 @@ import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-public class ViewHolder extends RecyclerView.ViewHolder {
+public class CommonViewHolder extends RecyclerView.ViewHolder {
     private SparseArray<View> mViews;
     private int mPosition;
     private View mConvertView;
     private Context mContext;
     private int mLayoutId;
 
-    public ViewHolder(Context context, View itemView, ViewGroup parent, int position) {
+    public CommonViewHolder(Context context, View itemView, ViewGroup parent, int position) {
         super(itemView);
         mContext = context;
         mConvertView = itemView;
@@ -38,16 +38,16 @@ public class ViewHolder extends RecyclerView.ViewHolder {
     }
 
 
-    public static ViewHolder get(Context context, View convertView,
-                                 ViewGroup parent, int layoutId, int position) {
+    public static CommonViewHolder get(Context context, View convertView,
+                                       ViewGroup parent, int layoutId, int position) {
         if (convertView == null) {
             View itemView = LayoutInflater.from(context).inflate(layoutId, parent,
                     false);
-            ViewHolder holder = new ViewHolder(context, itemView, parent, position);
+            CommonViewHolder holder = new CommonViewHolder(context, itemView, parent, position);
             holder.mLayoutId = layoutId;
             return holder;
         } else {
-            ViewHolder holder = (ViewHolder) convertView.getTag();
+            CommonViewHolder holder = (CommonViewHolder) convertView.getTag();
             holder.mPosition = position;
             return holder;
         }
@@ -80,56 +80,56 @@ public class ViewHolder extends RecyclerView.ViewHolder {
      * @param text
      * @return
      */
-    public ViewHolder setText(int viewId, String text) {
+    public CommonViewHolder setText(int viewId, String text) {
         TextView tv = getView(viewId);
         tv.setText(text);
         return this;
     }
 
-    public ViewHolder setImageResource(int viewId, int resId) {
+    public CommonViewHolder setImageResource(int viewId, int resId) {
         ImageView view = getView(viewId);
         view.setImageResource(resId);
         return this;
     }
 
-    public ViewHolder setImageBitmap(int viewId, Bitmap bitmap) {
+    public CommonViewHolder setImageBitmap(int viewId, Bitmap bitmap) {
         ImageView view = getView(viewId);
         view.setImageBitmap(bitmap);
         return this;
     }
 
-    public ViewHolder setImageDrawable(int viewId, Drawable drawable) {
+    public CommonViewHolder setImageDrawable(int viewId, Drawable drawable) {
         ImageView view = getView(viewId);
         view.setImageDrawable(drawable);
         return this;
     }
 
-    public ViewHolder setBackgroundColor(int viewId, int color) {
+    public CommonViewHolder setBackgroundColor(int viewId, int color) {
         View view = getView(viewId);
         view.setBackgroundColor(color);
         return this;
     }
 
-    public ViewHolder setBackgroundRes(int viewId, int backgroundRes) {
+    public CommonViewHolder setBackgroundRes(int viewId, int backgroundRes) {
         View view = getView(viewId);
         view.setBackgroundResource(backgroundRes);
         return this;
     }
 
-    public ViewHolder setTextColor(int viewId, int textColor) {
+    public CommonViewHolder setTextColor(int viewId, int textColor) {
         TextView view = getView(viewId);
         view.setTextColor(textColor);
         return this;
     }
 
-    public ViewHolder setTextColorRes(int viewId, int textColorRes) {
+    public CommonViewHolder setTextColorRes(int viewId, int textColorRes) {
         TextView view = getView(viewId);
         view.setTextColor(mContext.getResources().getColor(textColorRes));
         return this;
     }
 
     @SuppressLint("NewApi")
-    public ViewHolder setAlpha(int viewId, float value) {
+    public CommonViewHolder setAlpha(int viewId, float value) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             getView(viewId).setAlpha(value);
         } else {
@@ -142,19 +142,19 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         return this;
     }
 
-    public ViewHolder setVisible(int viewId, boolean visible) {
+    public CommonViewHolder setVisible(int viewId, boolean visible) {
         View view = getView(viewId);
         view.setVisibility(visible ? View.VISIBLE : View.GONE);
         return this;
     }
 
-    public ViewHolder linkify(int viewId) {
+    public CommonViewHolder linkify(int viewId) {
         TextView view = getView(viewId);
         Linkify.addLinks(view, Linkify.ALL);
         return this;
     }
 
-    public ViewHolder setTypeface(Typeface typeface, int... viewIds) {
+    public CommonViewHolder setTypeface(Typeface typeface, int... viewIds) {
         for (int viewId : viewIds) {
             TextView view = getView(viewId);
             view.setTypeface(typeface);
@@ -163,51 +163,51 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         return this;
     }
 
-    public ViewHolder setProgress(int viewId, int progress) {
+    public CommonViewHolder setProgress(int viewId, int progress) {
         ProgressBar view = getView(viewId);
         view.setProgress(progress);
         return this;
     }
 
-    public ViewHolder setProgress(int viewId, int progress, int max) {
+    public CommonViewHolder setProgress(int viewId, int progress, int max) {
         ProgressBar view = getView(viewId);
         view.setMax(max);
         view.setProgress(progress);
         return this;
     }
 
-    public ViewHolder setMax(int viewId, int max) {
+    public CommonViewHolder setMax(int viewId, int max) {
         ProgressBar view = getView(viewId);
         view.setMax(max);
         return this;
     }
 
-    public ViewHolder setRating(int viewId, float rating) {
+    public CommonViewHolder setRating(int viewId, float rating) {
         RatingBar view = getView(viewId);
         view.setRating(rating);
         return this;
     }
 
-    public ViewHolder setRating(int viewId, float rating, int max) {
+    public CommonViewHolder setRating(int viewId, float rating, int max) {
         RatingBar view = getView(viewId);
         view.setMax(max);
         view.setRating(rating);
         return this;
     }
 
-    public ViewHolder setTag(int viewId, Object tag) {
+    public CommonViewHolder setTag(int viewId, Object tag) {
         View view = getView(viewId);
         view.setTag(tag);
         return this;
     }
 
-    public ViewHolder setTag(int viewId, int key, Object tag) {
+    public CommonViewHolder setTag(int viewId, int key, Object tag) {
         View view = getView(viewId);
         view.setTag(key, tag);
         return this;
     }
 
-    public ViewHolder setChecked(int viewId, boolean checked) {
+    public CommonViewHolder setChecked(int viewId, boolean checked) {
         Checkable view = (Checkable) getView(viewId);
         view.setChecked(checked);
         return this;
@@ -216,22 +216,22 @@ public class ViewHolder extends RecyclerView.ViewHolder {
     /**
      * 关于事件的
      */
-    public ViewHolder setOnClickListener(int viewId,
-                                         View.OnClickListener listener) {
+    public CommonViewHolder setOnClickListener(int viewId,
+                                               View.OnClickListener listener) {
         View view = getView(viewId);
         view.setOnClickListener(listener);
         return this;
     }
 
-    public ViewHolder setOnTouchListener(int viewId,
-                                         View.OnTouchListener listener) {
+    public CommonViewHolder setOnTouchListener(int viewId,
+                                               View.OnTouchListener listener) {
         View view = getView(viewId);
         view.setOnTouchListener(listener);
         return this;
     }
 
-    public ViewHolder setOnLongClickListener(int viewId,
-                                             View.OnLongClickListener listener) {
+    public CommonViewHolder setOnLongClickListener(int viewId,
+                                                   View.OnLongClickListener listener) {
         View view = getView(viewId);
         view.setOnLongClickListener(listener);
         return this;

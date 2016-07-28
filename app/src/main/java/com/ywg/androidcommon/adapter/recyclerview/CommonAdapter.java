@@ -6,17 +6,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ywg.androidcommon.adapter.ViewHolder;
+import com.ywg.androidcommon.adapter.CommonViewHolder;
 
 import java.util.List;
 
 /**
  * Created by zhy on 16/4/9.
  */
-public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
+public abstract class CommonAdapter<T> extends RecyclerView.Adapter<CommonViewHolder> {
+
     protected Context mContext;
+
     protected int mLayoutId;
+
     protected List<T> mDatas;
+
     protected LayoutInflater mInflater;
 
     private OnItemClickListener mOnItemClickListener;
@@ -33,8 +37,8 @@ public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> 
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
-        ViewHolder viewHolder = ViewHolder.get(mContext, null, parent, mLayoutId, -1);
+    public CommonViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
+        CommonViewHolder viewHolder = CommonViewHolder.get(mContext, null, parent, mLayoutId, -1);
         setListener(parent, viewHolder, viewType);
         return viewHolder;
     }
@@ -48,7 +52,7 @@ public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> 
     }
 
 
-    protected void setListener(final ViewGroup parent, final ViewHolder viewHolder, int viewType) {
+    protected void setListener(final ViewGroup parent, final CommonViewHolder viewHolder, int viewType) {
         if (!isEnabled(viewType)) return;
         viewHolder.getConvertView().setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,12 +78,12 @@ public abstract class CommonAdapter<T> extends RecyclerView.Adapter<ViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(CommonViewHolder holder, int position) {
         holder.updatePosition(position);
         convert(holder, mDatas.get(position));
     }
 
-    public abstract void convert(ViewHolder holder, T t);
+    public abstract void convert(CommonViewHolder holder, T t);
 
     @Override
     public int getItemCount() {
