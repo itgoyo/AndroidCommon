@@ -8,6 +8,8 @@ import android.media.ThumbnailUtils;
  */
 public class FastBlurUtil {
 
+    public static int DEFAULT_ZOOM_INT = 8;
+
     private static final String TAG = FastBlurUtil.class.getSimpleName();
 
     /**
@@ -49,7 +51,7 @@ public class FastBlurUtil {
         // Stack Blur Algorithm by Mario Klingemann <mario@quasimondo.com>
 
         Bitmap bitmap;
-        if (canReuseInBitmap) {
+        if (canReuseInBitmap || (sentBitmap.getConfig() == Bitmap.Config.RGB_565)) {
             bitmap = sentBitmap;
         } else {
             bitmap = sentBitmap.copy(sentBitmap.getConfig(), true);
@@ -266,6 +268,23 @@ public class FastBlurUtil {
         Bitmap scaledBitmap = Bitmap.createScaledBitmap(originBitmap,
                 originBitmap.getWidth() / scaleRatio,
                 originBitmap.getHeight() / scaleRatio,
+                false);
+        Bitmap blurBitmap = doBlur(scaledBitmap, blurRadius, false);
+        scaledBitmap.recycle();
+        return blurBitmap;
+    }
+
+    /**
+     * 对图片进行毛玻璃化
+     * @param originBitmap 位图
+     * @param blurRadius 毛玻璃化比率，虚化程度
+     * @return 位图
+     */
+    public static Bitmap doBlur(Bitmap originBitmap, int blurRadius){
+
+        Bitmap scaledBitmap = Bitmap.createScaledBitmap(originBitmap,
+                originBitmap.getWidth() / DEFAULT_ZOOM_INT,
+                originBitmap.getHeight() / DEFAULT_ZOOM_INT,
                 false);
         Bitmap blurBitmap = doBlur(scaledBitmap, blurRadius, false);
         scaledBitmap.recycle();

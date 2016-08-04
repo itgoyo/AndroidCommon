@@ -27,4 +27,12 @@
     <color name="black_33">#333333</color>
     <color name="half_transparent_black">#BB000000</color>
 
+    <!--IOSActionSheet-->
+    <color name="lib_1E82FF">#1E82FF</color>
+
+    <!--MaterialSpinner-->
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+    <color name="spinner_base_color">#44000000</color>
+
 </resources>

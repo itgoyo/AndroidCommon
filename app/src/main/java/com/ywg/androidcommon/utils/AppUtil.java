@@ -14,13 +14,10 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileFilter;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.security.MessageDigest;
@@ -30,6 +27,7 @@ import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
+
 import javax.security.auth.x500.X500Principal;
 /**
  * APP工具类 APP相关信息工具类。获取版本信息
@@ -274,6 +272,27 @@ public class AppUtil {
         context.startActivity(intent);
     }
 
+    /**
+     * 打开指定包名的App
+     */
+    public void openOtherApp(Context context, String packageName){
+        PackageManager manager =context.getPackageManager();
+        Intent launchIntentForPackage = manager.getLaunchIntentForPackage(packageName);
+        if (launchIntentForPackage != null) {
+            context.startActivity(launchIntentForPackage);
+        }
+    }
+
+    /**
+     * 打开指定包名的App应用信息界面
+     */
+    public void showAppInfo(Context context, String packageName) {
+        Intent intent = new Intent();
+        intent.setAction("android.settings.APPLICATION_DETAILS_SETTINGS");
+        intent.setData(Uri.parse("package:" + packageName));
+        context.startActivity(intent);
+    }
+
     public static void gotoMarket(Context context, String pck) {
         if (!isHasMarket(context)) {
             Toast.makeText(context, "你手机中没有安装应用市场！", Toast.LENGTH_LONG).show();
@@ -477,71 +496,7 @@ public class AppUtil {
             e.printStackTrace();
         }
     }
-    public static String runScript(String script) {
-        String sRet = "";
-        try {
-            final Process m_process = Runtime.getRuntime().exec(script);
-            final StringBuilder sbread = new StringBuilder();
-            Thread tout = new Thread(new Runnable() {
-                public void run() {
-                    BufferedReader bufferedReader = new BufferedReader(
-                            new InputStreamReader(m_process.getInputStream()),
-                            8192);
-                    String ls_1 = null;
-                    try {
-                        while ((ls_1 = bufferedReader.readLine()) != null) {
-                            sbread.append(ls_1).append("\n");
-                        }
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    } finally {
-                        try {
-                            bufferedReader.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-            });
-            tout.start();
-            final StringBuilder sberr = new StringBuilder();
-            Thread terr = new Thread(new Runnable() {
-                public void run() {
-                    BufferedReader bufferedReader = new BufferedReader(
-                            new InputStreamReader(m_process.getErrorStream()),
-                            8192);
-                    String ls_1 = null;
-                    try {
-                        while ((ls_1 = bufferedReader.readLine()) != null) {
-                            sberr.append(ls_1).append("\n");
-                        }
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    } finally {
-                        try {
-                            bufferedReader.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-            });
-            terr.start();
-            int retvalue = m_process.waitFor();
-            while (tout.isAlive()) {
-                Thread.sleep(50);
-            }
-            if (terr.isAlive())
-                terr.interrupt();
-            String stdout = sbread.toString();
-            String stderr = sberr.toString();
-            sRet = stdout + stderr;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-        return sRet;
-    }
+
     public static boolean getRootPermission(Context context) {
         String packageCodePath = context.getPackageCodePath();
         Process process = null;
@@ -798,7 +753,7 @@ public class AppUtil {
      * @param context     上下文
      * @return 是否存在
      */
-    public static boolean isAppAlive(String packageName, Context context) {
+    public static boolean isAppAlive(Context context, String packageName) {
         if (context == null || TextUtils.isEmpty(packageName)) {
             return false;
         }
