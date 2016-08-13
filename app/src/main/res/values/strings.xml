@@ -72,4 +72,8 @@
 
     <string name="song_name">Sugar</string>
     <string name="artist">Maroon 5</string>
+
+    <!--ExpandableTextView Start-->
+
+    <!--ExpandableTextView End-->
 </resources>

@@ -40,15 +40,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sample.MaterialSpinnerActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity android:name=".activity.MainActivity">
-        </activity>
         <activity android:name=".sample.zoomimageview.SingleImageActivity"/>
         <activity android:name=".sample.zoomimageview.MultiImageActivity"/>
         <activity
@@ -96,6 +87,8 @@
 
         <activity android:name=".recyclerview.common.RecyclerViewCommonDemoActivity">
         </activity>
+        <activity android:name=".easyadapter.sample.ListViewActivity"/>
+        <activity android:name=".easyadapter.sample.RecyclerViewActivity"/>
 
     </application>
 

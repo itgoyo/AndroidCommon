@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- banner start -->
+    <!-- BannerLayout start -->
     <declare-styleable name="BannerLayoutStyle">
         <attr name="selectedIndicatorColor" format="color|reference"/>
         <attr name="unSelectedIndicatorColor" format="color|reference"/>
@@ -31,17 +31,19 @@
         <attr name="isAutoPlay" format="boolean"/>
         <attr name="defaultImage" format="integer|reference"/>
     </declare-styleable>
-    <!-- end  -->
+    <!-- BannerLayout end  -->
 
 
-    <!--CircleImageView-->
+    <!--CircleImageView start-->
     <declare-styleable name="CircleImageView">
         <attr name="civ_border_width" format="dimension"/>
         <attr name="civ_border_color" format="color"/>
         <attr name="civ_border_overlay" format="boolean"/>
         <attr name="civ_fill_color" format="color"/>
     </declare-styleable>
+    <!--BannerLayout end-->
 
+    <!--MaterialTextField start-->
     <declare-styleable name="MaterialTextField">
         <attr name="mtf_cardCollapsedHeight" format="dimension"/>
         <attr name="mtf_labelColor" format="color"/>
@@ -50,9 +52,9 @@
         <attr name="mtf_animationDuration" format="integer"/>
         <attr name="mtf_openKeyboardOnFocus" format="boolean"/>
     </declare-styleable>
+    <!--MaterialTextField end-->
 
-
-    <!--SmartTabLayout-->
+    <!--SmartTabLayout start-->
     <declare-styleable name="stl_SmartTabLayout">
         <attr name="stl_indicatorAlwaysInCenter" format="boolean"/>
         <attr name="stl_indicatorWithoutPadding" format="boolean"/>
@@ -95,27 +97,33 @@
         </attr>
         <attr name="stl_drawDecorationAfterTab" format="boolean"/>
     </declare-styleable>
+    <!--MaterialTextField end-->
 
-
+    <!--SpinnerLoading start-->
     <declare-styleable name="SpinnerLoading">
         <attr name="circle_color" format="color"/>
         <attr name="circle_color_move" format="color"/>
     </declare-styleable>
+    <!--SpinnerLoading end-->
 
+    <!--ShSwitchView start-->
     <declare-styleable name="ShSwitchView">
         <attr name="tintColor" format="reference|color"/>
         <attr name="outerStrokeWidth" format="reference|dimension"/>
         <attr name="shadowSpace" format="reference|dimension"/>
     </declare-styleable>
+    <!--ShSwitchView end-->
 
+    <!--WaveSideBarView start-->
     <declare-styleable name="WaveSideBarView">
         <attr name="sidebarTextColor" format="color|reference"/>
         <attr name="sidebarBackgroundColor" format="color|reference"/>
         <attr name="sidebarChooseTextColor" format="color|reference"/>
         <attr name="sidebarTextSize" format="float"/>
     </declare-styleable>
+    <!--WaveSideBarView end-->
 
-
+    <!--TickerView start-->
     <declare-styleable name="ticker_TickerView">
         <attr name="ticker_textColor" format="reference|color"/>
         <attr name="ticker_textSize" format="reference|dimension"/>
@@ -123,6 +131,7 @@
         <attr name="android:gravity" tools:ignore="ResourceName"/>
     </declare-styleable>
 
+    <!--TickerView end-->
     <declare-styleable name="SwitchButton1">
         <attr name="frameDrawable" format="reference|color"/>
         <attr name="stateDrawable" format="reference|color"/>
@@ -140,13 +149,13 @@
     </declare-styleable>
 
     <declare-styleable name="CircularMusicProgressBar">
-        <attr name="border_width" format="dimension" />
-        <attr name="border_color" format="color|reference" />
-        <attr name="border_overlay" format="boolean" />
-        <attr name="fill_color" format="color|reference" />
-        <attr name="progress_color" format="color|reference" />
-        <attr name="centercircle_diammterer" format="float|reference" />
-        <attr name="progress_startAngle" format="float|reference" />
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color|reference"/>
+        <attr name="border_overlay" format="boolean"/>
+        <attr name="fill_color" format="color|reference"/>
+        <attr name="progress_color" format="color|reference"/>
+        <attr name="centercircle_diammterer" format="float|reference"/>
+        <attr name="progress_startAngle" format="float|reference"/>
 
     </declare-styleable>
 
@@ -160,21 +169,21 @@
     </declare-styleable>
 
     <declare-styleable name="ActionSheets">
-        <attr name="actionSheetStyle" format="reference" />
+        <attr name="actionSheetStyle" format="reference"/>
     </declare-styleable>
     <declare-styleable name="IOSActionSheet">
-        <attr name="actionSheetBackground" format="color|reference" />
-        <attr name="cancelButtonBackground" format="color|reference" />
-        <attr name="otherButtonTopBackground" format="color|reference" />
-        <attr name="otherButtonMiddleBackground" format="color|reference" />
-        <attr name="otherButtonBottomBackground" format="color|reference" />
-        <attr name="otherButtonSingleBackground" format="color|reference" />
-        <attr name="cancelButtonTextColor" format="color|reference" />
-        <attr name="otherButtonTextColor" format="color|reference" />
-        <attr name="actionSheetPadding" format="dimension|reference" />
-        <attr name="otherButtonSpacing" format="dimension|reference"  />
-        <attr name="cancelButtonMarginTop" format="dimension|reference" />
-        <attr name="actionSheetTextSize" format="dimension|reference" />
+        <attr name="actionSheetBackground" format="color|reference"/>
+        <attr name="cancelButtonBackground" format="color|reference"/>
+        <attr name="otherButtonTopBackground" format="color|reference"/>
+        <attr name="otherButtonMiddleBackground" format="color|reference"/>
+        <attr name="otherButtonBottomBackground" format="color|reference"/>
+        <attr name="otherButtonSingleBackground" format="color|reference"/>
+        <attr name="cancelButtonTextColor" format="color|reference"/>
+        <attr name="otherButtonTextColor" format="color|reference"/>
+        <attr name="actionSheetPadding" format="dimension|reference"/>
+        <attr name="otherButtonSpacing" format="dimension|reference"/>
+        <attr name="cancelButtonMarginTop" format="dimension|reference"/>
+        <attr name="actionSheetTextSize" format="dimension|reference"/>
     </declare-styleable>
 
 
@@ -201,4 +210,363 @@
         <attr name="ms_isRtl" format="boolean"/>
     </declare-styleable>
     <!--MaterialSpinner End-->
+
+    <!--ExpandableTextView Start-->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="animation_duration" format="integer"/>
+    </declare-styleable>
+    <!--ExpandableTextView End-->
+
+    <!--SwipeMenu Start-->
+    <declare-styleable name="SwipeMenu">
+        <!--动画的代码-->
+        <attr name="sm_type" format="integer"/>
+        <!--滑出菜单的范围-->
+        <attr name="sm_dragoffset" format="dimension"/>
+        <!--滑出菜单距边界的值-->
+        <attr name="sm_menuoffset" format="dimension"/>
+        <!--滑动开始的缩放值-->
+        <attr name="sm_startscale" format="float"/>
+        <!--滑动开始的alpha值-->
+        <attr name="sm_startalpha" format="float"/>
+        <!--滑动开始的3D旋转角度-->
+        <attr name="sm_start3dangle" format="integer"/>
+        <!--全局颜色-->
+        <attr name="sm_fullcolor" format="color"/>
+        <!--全局背景-->
+        <attr name="sm_fullimage" format="reference"/>
+        <!--以下方法只在设置全局图片背景时候有用-->
+        <!--标题栏颜色-->
+        <attr name="sm_statucolor" format="color"/>
+        <!--全局背景的模糊度-->
+        <attr name="sm_fullimageblur" format="float"/>
+    </declare-styleable>
+    <!--SwipeMenu End-->
+
+    <!--ADTextView Start-->
+    <declare-styleable name="ADTextView">
+        <!--文字进入与消失的时间-->
+        <attr name="ad_text_view_speed" format="integer"/>
+
+        <!--文字停留在中心的时间-->
+        <attr name="ad_text_view_interval" format="integer"/>
+
+        <!--前缀文字颜色-->
+        <attr name="ad_text_front_color" format="color"/>
+        <!--前缀文字大小-->
+        <attr name="ad_text_front_size" format="dimension"/>
+
+        <!--内容文字颜色-->
+        <attr name="ad_text_content_color" format="color"/>
+        <!--内容文字大小-->
+        <attr name="ad_text_content_size" format="dimension"/>
+    </declare-styleable>
+    <!--ADTextView End-->
+
+    <!--CircularProgressBar Start-->
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_progress" format="integer"/>
+        <attr name="cpb_progressbar_color" format="color"/>
+        <attr name="cpb_background_progressbar_color" format="color"/>
+        <attr name="cpb_progressbar_width" format="dimension"/>
+        <attr name="cpb_background_progressbar_width" format="dimension"/>
+    </declare-styleable>
+    <!--CircularProgressBar End-->
+
+    <!--CircleProgressBar Start-->
+    <declare-styleable name="CircleProgress">
+        <attr name="circle_progress" format="integer"/>
+        <attr name="circle_max" format="integer"/>
+
+        <attr name="circle_unfinished_color" format="color"/>
+        <attr name="circle_finished_color" format="color"/>
+
+        <attr name="circle_text_size" format="dimension"/>
+        <attr name="circle_text_color" format="color"/>
+
+        <attr name="circle_prefix_text" format="string"/>
+        <attr name="circle_suffix_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+        <attr name="donut_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+
+        <attr name="donut_inner_bottom_text" format="string"/>
+        <attr name="donut_inner_bottom_text_size" format="dimension"/>
+        <attr name="donut_inner_bottom_text_color" format="color"/>
+
+        <attr name="donut_circle_starting_degree" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer"/>
+        <attr name="arc_angle" format="float"/>
+        <attr name="arc_stroke_width" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+
+        <attr name="arc_unfinished_color" format="color"/>
+        <attr name="arc_finished_color" format="color"/>
+
+        <attr name="arc_text_size" format="dimension"/>
+        <attr name="arc_text_color" format="color"/>
+
+        <attr name="arc_suffix_text" format="string"/>
+        <attr name="arc_suffix_text_size" format="dimension"/>
+        <attr name="arc_suffix_text_padding" format="dimension"/>
+
+        <attr name="arc_bottom_text" format="string"/>
+        <attr name="arc_bottom_text_size" format="dimension"/>
+    </declare-styleable>
+    <!--CircleProgressBar End-->
+
+    <!--MarqueeViewStyle Start-->
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference"/>
+        <attr name="mvAnimDuration" format="integer|reference"/>
+        <attr name="mvTextSize" format="dimension|reference"/>
+        <attr name="mvTextColor" format="color|reference"/>
+        <attr name="mvSingleLine" format="boolean"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <!--MarqueeViewStyle End-->
+
+    <!--NumberProgressBar Start-->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+    <!--NumberProgressBar End-->
+
+    <!--CropImageView Start-->
+    <declare-styleable name="CropImageView">
+        <attr name="cropMaskColor" format="color"/>
+        <attr name="cropBorderColor" format="color"/>
+        <attr name="cropBorderWidth" format="dimension"/>
+        <attr name="cropFocusWidth" format="dimension"/>
+        <attr name="cropFocusHeight" format="dimension"/>
+        <attr name="cropStyle" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+    </declare-styleable>
+    <!--CropImageView End-->
+
+    <!--ShineButton Start-->
+    <declare-styleable name="ShineButton">
+        <attr name="btn_color" format="color"/>
+        <attr name="btn_fill_color" format="color"/>
+        <attr name="shine_count" format="integer"/>
+        <attr name="shine_turn_angle" format="float"/>
+        <attr name="small_shine_offset_angle" format="float"/>
+        <attr name="enable_flashing" format="boolean"/>
+        <attr name="allow_random_color" format="boolean"/>
+        <attr name="small_shine_color" format="color"/>
+        <attr name="big_shine_color" format="color"/>
+        <attr name="shine_animation_duration" format="integer"/>
+        <attr name="click_animation_duration" format="integer"/>
+        <attr name="shine_distance_multiple" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="PorterImageView">
+        <attr name="siShape" format="integer|reference"/>
+    </declare-styleable>
+    <!--ShineButton End-->
+
+    <!--ToolbarPanelLayout Start-->
+    <declare-styleable name="ToolbarPanelLayout">
+        <attr name="pullableToolbarId" format="reference"/>
+        <attr name="panelId" format="reference"/>
+    </declare-styleable>
+    <!--ToolbarPanelLayout End-->
+
+    <!--WaveLoadingView Start-->
+    <declare-styleable name="WaveLoadingView">
+        <attr name="wlv_borderWidth" format="dimension"/>
+        <attr name="wlv_borderColor" format="color"/>
+        <attr name="wlv_progressValue" format="integer"/>
+        <attr name="wlv_shapeType" format="enum">
+            <enum name="triangle" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="square" value="2"/>
+            <enum name="rectangle" value="3"/>
+        </attr>
+        <attr name="wlv_triangle_direction" format="enum">
+            <enum name="north" value="0"/>
+            <enum name="south" value="1"/>
+            <enum name="east" value="2"/>
+            <enum name="west" value="3"/>
+        </attr>
+        <attr name="wlv_round_rectangle" format="boolean"/>
+        <attr name="wlv_round_rectangle_x_and_y" format="integer"/>
+        <attr name="wlv_waveColor" format="color"/>
+        <attr name="wlv_waveAmplitude" format="float"/>
+        <attr name="wlv_titleTop" format="string"/>
+        <attr name="wlv_titleCenter" format="string"/>
+        <attr name="wlv_titleBottom" format="string"/>
+        <attr name="wlv_titleTopSize" format="dimension"/>
+        <attr name="wlv_titleCenterSize" format="dimension"/>
+        <attr name="wlv_titleBottomSize" format="dimension"/>
+        <attr name="wlv_titleTopColor" format="color"/>
+        <attr name="wlv_titleCenterColor" format="color"/>
+        <attr name="wlv_titleBottomColor" format="color"/>
+    </declare-styleable>
+    <!--WaveLoadingView End-->
+
+    <!--CircleHead start-->
+    <declare-styleable name="CircleHead">
+        <attr name="circle_head_text" format="string"/>
+        <attr name="circlr_head_back" format="color"/>
+        <attr name="circlr_head_text_color" format="color"/>
+        <attr name="circlr_head_israndom" format="boolean"/>
+    </declare-styleable>
+    <!--CircleHead end-->
+
+    <!--CircleHead start-->
+    <declare-styleable name="CirclePoint">
+        <attr name="israndom" format="boolean"/>
+        <attr name="pointcolor" format="color"/>
+    </declare-styleable>
+    <!--CircleHead end-->
+
+    <!--SwitchButton Start-->
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+    </declare-styleable>
+    <!--SwitchButton End-->
+
+    <!--PaintBoard start-->
+    <declare-styleable name="PaintBoard">
+        <!--画板背景颜色-->
+        <attr name="paintBoardColor" format="color"/>
+        <!--画笔颜色-->
+        <attr name="paintPaintColor" format="color"/>
+        <!--画笔宽度-->
+        <attr name="paintPaintStrike" format="dimension"/>
+    </declare-styleable>
+    <!--PaintBoard end-->
+
+    <!--PercentProgressBar start-->
+    <declare-styleable name="PercentProgressBar">
+        <attr name="allcount" format="integer"/>
+        <attr name="rightcount" format="integer"/>
+        <attr name="errorcount" format="integer"/>
+    </declare-styleable>
+    <!--PercentProgressBar end-->
+
+    <!---->
+    <declare-styleable name="LineProgressWithText">
+        <attr name="line_progress_text_size" format="dimension"/>
+        <attr name="line_progress_text_color" format="color"/>
+        <attr name="line_progress_unreach_color" format="color"/>
+        <attr name="line_progress_reach_color" format="color"/>
+        <attr name="line_progress_bar_height" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SpinnerProgressBarWithText">
+        <!--半径-->
+        <attr name="spinner_progress_radicus" format="dimension"/>
+        <!--线条宽度-->
+        <attr name="spinner_progress_line_width" format="dimension"/>
+        <!--进度-->
+        <attr name="spinner_progress_line_progress" format="integer"/>
+        <!--开始的角度-->
+        <attr name="spinner_progress_line_start_angle" format="integer"/>
+        <!--文字大小-->
+        <attr name="spinner_progress_line_text_size" format="dimension"/>
+        <!--文字颜色-->
+        <attr name="spinner_progress_line_text_color" format="color"/>
+        <!--未完成的颜色-->
+        <attr name="spinner_progress_line_unreach_color" format="color"/>
+        <!--已完成的颜色-->
+        <attr name="spinner_progress_line_reached_color" format="color"/>
+        <!--中间的填充颜色-->
+        <attr name="spinner_progress_line_center_color" format="color"/>
+    </declare-styleable>
+
+    <!---->
+    <declare-styleable name="WatchBoard">
+        <!--表盘的边距-->
+        <attr name="wb_padding" format="dimension"/>
+        <!--表盘文字大小-->
+        <attr name="wb_text_size" format="dimension"/>
+        <!--时针的宽度-->
+        <attr name="wb_hour_pointer_width" format="dimension"/>
+        <!--分针的宽度-->
+        <attr name="wb_minute_pointer_width" format="dimension"/>
+        <!--秒针的宽度-->
+        <attr name="wb_second_pointer_width" format="dimension"/>
+        <!--指针圆角值-->
+        <attr name="wb_pointer_corner_radius" format="dimension"/>
+        <!--指针超过中心点的长度-->
+        <attr name="wb_pointer_end_length" format="dimension"/>
+        <!--时刻刻度颜色-->
+        <attr name="wb_scale_long_color" format="color"/>
+        <!--非时刻刻度颜色-->
+        <attr name="wb_scale_short_color" format="color"/>
+        <!--时针颜色-->
+        <attr name="wb_hour_pointer_color" format="color"/>
+        <!--分针颜色-->
+        <attr name="wb_minute_pointer_color" format="color"/>
+        <!--秒针颜色-->
+        <attr name="wb_second_pointer_color" format="color"/>
+    </declare-styleable>
 </resources>

@@ -35,4 +35,9 @@
     <color name="error_color">#E7492E</color>
     <color name="spinner_base_color">#44000000</color>
 
+
+    <!--SwipeMenu-->
+    <color name="colorWhite">#ffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightWhite">#c9c8c8</color>
 </resources>
