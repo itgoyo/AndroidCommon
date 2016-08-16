@@ -25,34 +25,34 @@ import com.ywg.androidcommon.widget.swipemenu.SwipeMenu;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SwipeMenuActivity extends AppCompatActivity implements View.OnClickListener{
 
-    @Bind(R.id.main_swipemenu)
+    @BindView(R.id.main_swipemenu)
     SwipeMenu mMainSwipemenu;
-    @Bind(R.id.menu_rg_trans)
+    @BindView(R.id.menu_rg_trans)
     RadioGroup mRgTrans;
-    @Bind(R.id.menu_cb_scale)
+    @BindView(R.id.menu_cb_scale)
     CheckBox mCbScale;
-    @Bind(R.id.menu_sb_scale)
+    @BindView(R.id.menu_sb_scale)
     SeekBar mSbScale;
-    @Bind(R.id.menu_cb_alpha)
+    @BindView(R.id.menu_cb_alpha)
     CheckBox mCbAlpha;
-    @Bind(R.id.menu_sb_alpha)
+    @BindView(R.id.menu_sb_alpha)
     SeekBar mSbAlpha;
-    @Bind(R.id.menu_rg_rotate)
+    @BindView(R.id.menu_rg_rotate)
     RadioGroup mRgRotate;
-    @Bind(R.id.menu_Sb_rotate)
+    @BindView(R.id.menu_Sb_rotate)
     SeekBar mSbRotate;
-    @Bind(R.id.main_btn_menu)
+    @BindView(R.id.main_btn_menu)
     ImageButton mBtnMenu;
-    @Bind(R.id.content_recyclerView)
+    @BindView(R.id.content_recyclerView)
     RecyclerView mContentRecyclerView;
-    @Bind(R.id.cb_pic)
+    @BindView(R.id.cb_pic)
     CheckBox mCbPic;
-    @Bind(R.id.content_rg_blur)
+    @BindView(R.id.content_rg_blur)
     RadioGroup mContentRgBlur;
 
     private int mStyleCode = 11111; //风格代码
@@ -402,7 +402,7 @@ public class SwipeMenuActivity extends AppCompatActivity implements View.OnClick
 
     //内容提示面板
     class TipViewHolder extends RecyclerView.ViewHolder {
-        @Bind(R.id.tip_tv_content)
+        @BindView(R.id.tip_tv_content)
         TextView mTvContext;
 
         public TipViewHolder(View itemView) {

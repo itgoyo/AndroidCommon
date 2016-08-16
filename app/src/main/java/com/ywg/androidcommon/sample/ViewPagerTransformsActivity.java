@@ -20,6 +20,7 @@ import com.ywg.androidcommon.widget.transforms.CubeInTransformer;
 import com.ywg.androidcommon.widget.transforms.CubeOutTransformer;
 import com.ywg.androidcommon.widget.transforms.DefaultTransformer;
 import com.ywg.androidcommon.widget.transforms.DepthPageTransformer;
+import com.ywg.androidcommon.widget.transforms.DrawFromBackTransformer;
 import com.ywg.androidcommon.widget.transforms.FlipHorizontalTransformer;
 import com.ywg.androidcommon.widget.transforms.FlipVerticalTransformer;
 import com.ywg.androidcommon.widget.transforms.ForegroundToBackgroundTransformer;
@@ -49,6 +50,7 @@ public class ViewPagerTransformsActivity extends Activity implements ActionBar.O
         TRANSFORM_CLASSES.add(new TransformerItem(CubeInTransformer.class));
         TRANSFORM_CLASSES.add(new TransformerItem(CubeOutTransformer.class));
         TRANSFORM_CLASSES.add(new TransformerItem(DepthPageTransformer.class));
+        TRANSFORM_CLASSES.add(new TransformerItem(DrawFromBackTransformer.class));
         TRANSFORM_CLASSES.add(new TransformerItem(FlipHorizontalTransformer.class));
         TRANSFORM_CLASSES.add(new TransformerItem(FlipVerticalTransformer.class));
         TRANSFORM_CLASSES.add(new TransformerItem(ForegroundToBackgroundTransformer.class));

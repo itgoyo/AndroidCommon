@@ -22,7 +22,7 @@ public class CircleHead extends View {
     private String mText = "A"; //文字
     private Paint mPaintBack; //背景画笔
     private Paint mPaintText; //文字画笔
-    private int mBackColor = Color.GRAY; //背景色
+    private int mBgColor = Color.GRAY; //背景色
     private int mTextColor = Color.WHITE; //文字颜色
     private boolean isRandom = false; //是否开启随机颜色
     private Random random = new Random();
@@ -42,7 +42,7 @@ public class CircleHead extends View {
     private void obtainStyledAttrs(AttributeSet attrs) {
         TypedArray array = getContext().obtainStyledAttributes(attrs, R.styleable.CircleHead);
         mText = array.getString(R.styleable.CircleHead_circle_head_text);
-        mBackColor = array.getColor(R.styleable.CircleHead_circlr_head_back, getResources().getColor(R.color.colorPrimary));
+        mBgColor = array.getColor(R.styleable.CircleHead_circlr_head_bgcolor, getResources().getColor(R.color.colorPrimary));
         mTextColor = array.getColor(R.styleable.CircleHead_circlr_head_text_color, Color.WHITE);
         isRandom = array.getBoolean(R.styleable.CircleHead_circlr_head_israndom, false);
         array.recycle();
@@ -54,9 +54,9 @@ public class CircleHead extends View {
         mPaintBack.setDither(true);
         mPaintBack.setStyle(Paint.Style.FILL);
         if (isRandom) {
-            mBackColor = getRandomColor(); //产生随机颜色
+            mBgColor = getRandomColor(); //产生随机颜色
         }
-        mPaintBack.setColor(mBackColor);
+        mPaintBack.setColor(mBgColor);
 
         mPaintText = new Paint();
         mPaintText.setAntiAlias(true);
@@ -72,8 +72,8 @@ public class CircleHead extends View {
     }
 
     //设置背景颜色
-    public void setBackColor(int backColor) {
-        mBackColor = backColor;
+    public void setBgColor(int bgColor) {
+        mBgColor = bgColor;
     }
 
     //设置文字颜色

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            style="@style/MatchMatch">
+
+    <LinearLayout style="@style/MatchMatch.Vertical">
+
+        <com.ywg.androidcommon.widget.BGAFlowLayout
+            style="@style/MatchWrap"
+            android:background="#50a3fc"
+            android:padding="10dp"
+            app:fl_horizontalChildGap="15dp"
+            app:fl_isDistributionWhiteSpacing="true"
+            app:fl_verticalChildGap="10dp">
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="bingo" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="googol" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="apple" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="bingoogolapple" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:layout_height="40dp"
+                android:text="HelloWorld" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="Android" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="iOS" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="PHP" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="PhoneGap" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="Cordova" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="AppCan" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="React Native" />
+
+            <TextView
+                style="@style/TvMainTag"
+                android:text="Ionic" />
+
+        </com.ywg.androidcommon.widget.BGAFlowLayout>
+
+        <com.ywg.androidcommon.widget.BGAFlowLayout
+            android:id="@+id/flowlayout"
+            style="@style/MatchWrap"
+            android:background="#00cc7c"
+            android:padding="5dp"
+            app:fl_isDistributionWhiteSpacing="true">
+
+            <EditText
+                android:id="@+id/et_main_tag"
+                style="@style/WrapWrap"
+                android:background="@drawable/shape_stroke_line"
+                android:imeActionLabel="添加"
+                android:imeOptions="actionGo"
+                android:minWidth="120dp"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+        </com.ywg.androidcommon.widget.BGAFlowLayout>
+
+    </LinearLayout>
+
+</ScrollView>

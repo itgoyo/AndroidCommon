@@ -76,4 +76,54 @@
     <!--ExpandableTextView Start-->
 
     <!--ExpandableTextView End-->
+
+    <!--FloatingNavigationView start-->
+    <string name="vector_path_menu">M3,8 L21,8 21,6 3,6z M3,18 L21,18 21,16 3,16z M3,13 L21,13 21,11 3,11z</string>
+    <string name="vector_path_line">M3,13 L21,13 21,11 3,11z M3,13 L21,13 21,11 3,11z M3,12 L21,12 21,12 3,12z</string>
+    <string name="vector_path_close">M5,6.41 L17.59,19 19,17.59 6.41,5z M6.41,19 L19,6.41 17.59,5 5,17.59z M12,12 L12,12 12,12 12,12z</string>
+    <string name="developer">André Mion</string>
+    <string name="website">https://github.com/andremion</string>
+    <string name="menu_item_import">Import</string>
+    <string name="menu_item_gallery">Gallery</string>
+    <string name="menu_item_slideshow">Slideshow</string>
+    <string name="menu_item_tools">Tools</string>
+    <string name="menu_group_communicate">Communicate</string>
+    <string name="menu_item_share">Share</string>
+    <string name="menu_item_send">Send</string>
+    <!--FloatingNavigationView end-->
+
+
+    <!--TouchImageView-->
+    <string name="single_touchimageview">Single TouchImageView</string>
+    <string name="mirror_touchimageview">Mirroring Example</string>
+    <string name="viewpager_example">ViewPager Example</string>
+    <string name="switch_image_example">Switch Image Example</string>
+    <string name="switch_scaletype_example">Switch ScaleType Example</string>
+    <string name="get_scroll_position">getScrollPosition():</string>
+    <string name="get_zoomed_rect">getZoomedRect():</string>
+    <string name="get_current_zoom">getCurrentZoom():</string>
+    <string name="mirroring_text">All touch gestures applied to one TouchImageView will be mirrored on the other.</string>
+    <string name="swipe_viewpager">Swipe left or right to test ViewPager.</string>
+    <string name="switch_image_text">Click TouchImageView to cycle through image resources. Note that the zoom state is maintained.</string>
+    <string name="switch_scaletype_text">Click TouchImageView to cycle through supported ScaleTypes.</string>
+
+
+    <!--PinnedSectionListView-->
+    <string name="action_fastscroll">Fast scroll</string>
+    <string name="action_addpadding">Add padding</string>
+    <string name="action_showShadow">Show shadow</string>
+    <string name="action_showHeaderAndFooter">Show Header &amp; Footer</string>
+    <string name="action_updateDataset">Update dataset</string>
+
+    <!---->
+    <string name="profile">PROFILE</string>
+    <string name="feed">FEED</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="settings">SETTINGS</string>
+
+    <!--BlurImageView-->
+     <string name="blurimageview_info">Here is a Full blur imageView which will load two images, small one and normal one the small one will be blurry and once the normal one is loaded,replace the small one automatically.\nIn addition, it will cache image by itself.
+    </string>
+    <string name="blurimageview_info_ch">上面是一个完整的BlurImageView,为了展示虚化加载效果,它会首先去获取小图并虚化显示给用户;同时去获取大图,一旦大图加载完毕,便进行显示.\n另外,BlurImageView会自动缓存图片.
+    </string>
 </resources>

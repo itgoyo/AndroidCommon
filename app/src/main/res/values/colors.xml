@@ -40,4 +40,27 @@
     <color name="colorWhite">#ffff</color>
     <color name="colorBlack">#000000</color>
     <color name="colorLightWhite">#c9c8c8</color>
+
+    <!--BezierLoadingView-->
+    <color name="loading_yellow">#F6B965</color>
+    <color name="loading_pink">#F04D61</color>
+
+    <!--PinnedSectionListView-->
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+
+    <!--GooeyMenu-->
+    <color name="default_color">#02a6d8</color>
+    <color name="default_color_dark">#52a6b8</color>
+    <color name="color_red">#FF0000</color>
+
+    <!---->
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
+
+    <color name="spots_dialog_color">@android:color/holo_blue_dark</color>
+
 </resources>

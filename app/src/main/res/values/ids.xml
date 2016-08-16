@@ -8,4 +8,8 @@
     <item name="adapter_view_load_layout" type="layout"/>
 
 
+    <!--TabView start-->
+    <item name="tabview_id" type="id" />
+    <item name="tabview_fragment_container" type="id" />
+    <!--TabView end-->
 </resources>

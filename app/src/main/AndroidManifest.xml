@@ -40,6 +40,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".sample.ToolbarPanelLayoutActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".sample.zoomimageview.SingleImageActivity"/>
         <activity android:name=".sample.zoomimageview.MultiImageActivity"/>
         <activity
@@ -89,6 +96,18 @@
         </activity>
         <activity android:name=".easyadapter.sample.ListViewActivity"/>
         <activity android:name=".easyadapter.sample.RecyclerViewActivity"/>
+        <activity android:name=".sample.tabview.QuickStartActivity"/>
+        <activity android:name=".sample.tabview.CustomInJavaActivity"/>
+        <activity android:name=".sample.tabview.CustomInXmlActivity"/>
+        <activity android:name=".sample.tabview.UseInFragment"/>
+        <activity android:name=".sample.countdownview.ListViewActivity"/>
+        <activity android:name=".sample.countdownview.DynamicShowActivity"/>
+        <activity android:name=".sample.countdownview.RecyclerViewActivity"/>
+        <activity android:name=".sample.touchimageview.SingleTouchImageViewActivity"/>
+        <activity android:name=".sample.touchimageview.MirroringExampleActivity"/>
+        <activity android:name=".sample.touchimageview.ViewPagerExampleActivity"/>
+        <activity android:name=".sample.touchimageview.SwitchImageExampleActivity"/>
+        <activity android:name=".sample.touchimageview.SwitchScaleTypeExampleActivity"/>
 
     </application>
 

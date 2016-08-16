@@ -51,5 +51,8 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     compile 'com.android.support:design:24.1.1'
     compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.jakewharton:butterknife:7.0.1'
+
+    compile 'com.jakewharton:butterknife:8.0.1'
+
+    compile 'cn.qqtheme.framework:ColorPicker:1.1.3'
 }
