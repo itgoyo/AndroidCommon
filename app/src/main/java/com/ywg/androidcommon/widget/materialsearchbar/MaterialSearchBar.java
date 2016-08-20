@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.materialsearchbar;
+package com.ywg.androidcommon.widget.MaterialSearchBar;
 
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;

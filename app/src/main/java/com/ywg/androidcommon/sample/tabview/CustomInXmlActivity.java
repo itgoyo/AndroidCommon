@@ -6,8 +6,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.tabview.TabView;
-import com.ywg.androidcommon.widget.tabview.TabViewChild;
+import com.ywg.androidcommon.widget.TabView.TabView;
+import com.ywg.androidcommon.widget.TabView.TabViewChild;
 
 import java.util.ArrayList;
 import java.util.List;

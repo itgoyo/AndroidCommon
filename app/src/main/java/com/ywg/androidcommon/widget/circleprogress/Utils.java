@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.circleprogress;
+package com.ywg.androidcommon.widget.CircleProgress;
 
 import android.content.res.Resources;
 

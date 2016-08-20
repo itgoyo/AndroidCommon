@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.stickerview;
+package com.ywg.androidcommon.widget.StickerView;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

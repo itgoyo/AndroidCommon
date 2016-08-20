@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.countdownview;
+package com.ywg.androidcommon.widget.CountdownView;
 
 import android.os.Handler;
 import android.os.Message;

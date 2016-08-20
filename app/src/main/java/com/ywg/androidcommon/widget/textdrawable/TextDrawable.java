@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.textdrawable;
+package com.ywg.androidcommon.widget.TextDrawable;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

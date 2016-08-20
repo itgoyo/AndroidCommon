@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.shinebutton;
+package com.ywg.androidcommon.widget.ShineButton;
 
 import android.support.annotation.NonNull;
 

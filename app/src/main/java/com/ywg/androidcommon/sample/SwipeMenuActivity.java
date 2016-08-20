@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 import com.ywg.androidcommon.R;
 import com.ywg.androidcommon.activity.MainActivity;
-import com.ywg.androidcommon.widget.swipemenu.SwipeMenu;
+import com.ywg.androidcommon.widget.SwipeMenu.SwipeMenu;
 
 import java.util.ArrayList;
 import java.util.List;

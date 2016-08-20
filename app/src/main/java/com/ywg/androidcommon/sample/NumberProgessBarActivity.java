@@ -4,14 +4,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.ywg.androidcommon.widget.numberprogressbar.NumberProgressBar;
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.numberprogressbar.OnProgressBarListener;
+import com.ywg.androidcommon.widget.NumberProgressBar;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class NumberProgessBarActivity extends AppCompatActivity implements OnProgressBarListener {
+public class NumberProgessBarActivity extends AppCompatActivity implements NumberProgressBar.OnProgressBarListener {
 
     private Timer timer;
 

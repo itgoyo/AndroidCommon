@@ -2,13 +2,12 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="mtf_cardHeight_initial">4dp</dimen>
     <dimen name="mtf_cardHeight_final">55dp</dimen>
     <dimen name="mtf_corner_radius">4dp</dimen>
-
-    <dimen name="tab_height">48dp</dimen>
 
     <!--CircularProgress-->
     <dimen name="default_stroke_width">7dp</dimen>
@@ -60,4 +59,31 @@
     <dimen name="guillotine_divider_height">40dp</dimen>
     <dimen name="guillotine_item_text_size">20sp</dimen>
     <dimen name="guillotine_actionbar_background_view_height">35dp</dimen>
+
+    <!--XFragmentTabHost-->
+    <dimen name="tab_elevation">8dp</dimen>
+    <dimen name="tab_shadow_height">3dp</dimen>
+    <dimen name="tab_shadow_height_without_colored_background">4dp</dimen>
+    <dimen name="tab_min_width">104dp</dimen>
+    <dimen name="tab_max_width">168dp</dimen>
+    <dimen name="tab_height">56dp</dimen>
+    <dimen name="tab_line_width">1dp</dimen>
+    <dimen name="tab_icon">24dp</dimen>
+
+    <dimen name="tab_padding_top_active">3dp</dimen>
+    <dimen name="tab_padding_top_inactive">6dp</dimen>
+    <dimen name="tab_padding_top_inactive_without_text">16dp</dimen>
+    <dimen name="tab_padding_bottom">3dp</dimen>
+    <dimen name="tab_padding_left">12dp</dimen>
+    <dimen name="tab_padding_right">12dp</dimen>
+    <dimen name="tab_text_size_active">14sp</dimen>
+    <dimen name="tab_text_size_inactive">12sp</dimen>
+
+
+    <!--QuickSideBar-->
+    <dimen name="textSize_quicksidebar">12sp</dimen>
+    <dimen name="textSize_quicksidebar_choose">16sp</dimen>
+    <dimen name="textSize_quicksidebartips">20sp</dimen>
+    <dimen name="height_quicksidebartips">45dp</dimen>
+    <dimen name="height_quicksidebaritem">20dp</dimen>
 </resources>

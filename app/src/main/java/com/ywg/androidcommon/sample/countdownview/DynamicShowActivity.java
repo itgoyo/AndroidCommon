@@ -11,8 +11,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.countdownview.CountdownView;
-import com.ywg.androidcommon.widget.countdownview.DynamicConfig;
+import com.ywg.androidcommon.widget.CountdownView.CountdownView;
+import com.ywg.androidcommon.widget.CountdownView.DynamicConfig;
 
 import cn.qqtheme.framework.picker.ColorPicker;
 

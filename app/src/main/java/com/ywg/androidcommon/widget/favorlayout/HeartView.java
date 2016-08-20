@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.favorlayout;
+package com.ywg.androidcommon.widget.FavorLayout;
 
 import android.content.Context;
 import android.graphics.Canvas;

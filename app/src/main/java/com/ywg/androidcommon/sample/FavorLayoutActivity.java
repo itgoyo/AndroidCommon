@@ -6,7 +6,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.favorlayout.FavorLayout;
+import com.ywg.androidcommon.widget.FavorLayout.FavorLayout;
 
 import java.util.Random;
 

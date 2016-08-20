@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.favorlayout;
+package com.ywg.androidcommon.widget.FavorLayout;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

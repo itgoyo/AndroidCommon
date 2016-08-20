@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.guillotinemenu.GuillotineAnimation;
+import com.ywg.androidcommon.widget.GuillotineMenu.GuillotineAnimation;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

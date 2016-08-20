@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.guiderlayout;
+package com.ywg.androidcommon.widget.GuiderLayout;
 
 import android.content.Context;
 import android.graphics.Canvas;

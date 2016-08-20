@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.textdrawable;
+package com.ywg.androidcommon.widget.TextDrawable;
 
 import java.util.Arrays;
 import java.util.List;

@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.materialsearchbar.MaterialSearchBar;
+import com.ywg.androidcommon.widget.MaterialSearchBar.MaterialSearchBar;
 
 import java.util.List;
 

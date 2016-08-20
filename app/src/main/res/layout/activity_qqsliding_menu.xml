@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ywg.androidcommon.widget.QQSlidingMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/leftMenuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--菜单布局-->
+    <LinearLayout
+        android:id="@+id/layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--在这里添加你的菜单-->
+
+        <Button
+            android:id="@+id/btTestClickLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="关闭抽屉" />
+    </LinearLayout>
+
+    <!--内容布局-->
+    <LinearLayout
+        android:id="@+id/layout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--在这里显示你的主页内容-->
+        <Button
+            android:id="@+id/btTestClickRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="打开抽屉" />
+    </LinearLayout>
+</com.ywg.androidcommon.widget.QQSlidingMenu>

@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.toolbarpanel.ToolbarPanelLayout;
+import com.ywg.androidcommon.widget.ToolbarPanel.ToolbarPanelLayout;
 
 public class ToolbarPanelLayoutActivity extends AppCompatActivity {
 

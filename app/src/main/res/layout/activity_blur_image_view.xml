@@ -35,7 +35,7 @@
                     android:textColor="#000000"
                     android:text="@string/blurimageview_info"/>
 
-                <com.ywg.androidcommon.widget.blurimageview.BlurImageView
+                <com.ywg.androidcommon.widget.BlurImageView.BlurImageView
                     android:id="@+id/full_blur_image_view"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"/>

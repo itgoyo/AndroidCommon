@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.blurimageview.BlurImageView;
+import com.ywg.androidcommon.widget.BlurImageView.BlurImageView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.decentbanner;
+package com.ywg.androidcommon.widget.DecentBanner;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;

@@ -12,8 +12,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.parallaxviewpager.Mode;
-import com.ywg.androidcommon.widget.parallaxviewpager.ParallaxViewPager;
+import com.ywg.androidcommon.widget.ParallaxViewPager.Mode;
+import com.ywg.androidcommon.widget.ParallaxViewPager.ParallaxViewPager;
 
 public class ParallaxViewPagerActivity extends AppCompatActivity {
 

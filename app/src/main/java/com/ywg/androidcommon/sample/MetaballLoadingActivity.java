@@ -6,8 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SeekBar;
 
-import com.ywg.androidcommon.widget.metaballloading.MetaballDebugView;
-import com.ywg.androidcommon.widget.metaballloading.MetaballView;
+import com.ywg.androidcommon.widget.MetabalLloading.MetaballDebugView;
+import com.ywg.androidcommon.widget.MetabalLloading.MetaballView;
 import com.ywg.androidcommon.R;
 
 public class MetaballLoadingActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener{

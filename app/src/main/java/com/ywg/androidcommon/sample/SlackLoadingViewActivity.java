@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.SeekBar;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.slackloadingview.SlackLoadingView;
+import com.ywg.androidcommon.widget.SlackLoadingView.SlackLoadingView;
 
 public class SlackLoadingViewActivity extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener{
 

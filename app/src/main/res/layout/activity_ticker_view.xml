@@ -5,7 +5,7 @@
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:orientation="vertical">
 
-    <com.ywg.androidcommon.widget.tickerview.TickerView
+    <com.ywg.androidcommon.widget.TickerView.TickerView
         android:id="@+id/ticker1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,7 +14,7 @@
         app:ticker_textColor="@color/colorPrimary"
         app:ticker_textSize="50sp" />
 
-    <com.ywg.androidcommon.widget.tickerview.TickerView
+    <com.ywg.androidcommon.widget.TickerView.TickerView
         android:id="@+id/ticker2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         app:ticker_textColor="@color/colorPrimary"
         app:ticker_textSize="50sp" />
 
-    <com.ywg.androidcommon.widget.tickerview.TickerView
+    <com.ywg.androidcommon.widget.TickerView.TickerView
         android:id="@+id/ticker3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

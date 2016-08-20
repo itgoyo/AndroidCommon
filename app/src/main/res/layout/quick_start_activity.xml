@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.ywg.androidcommon.widget.tabview.TabView
+    <com.ywg.androidcommon.widget.TabView.TabView
         android:id="@+id/tabView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </com.ywg.androidcommon.widget.tabview.TabView>
+    </com.ywg.androidcommon.widget.TabView.TabView>
 
 </LinearLayout>

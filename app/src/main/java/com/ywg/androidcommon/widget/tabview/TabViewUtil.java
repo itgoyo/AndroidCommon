@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.tabview;
+package com.ywg.androidcommon.widget.TabView;
 
 import android.content.Context;
 import android.util.TypedValue;

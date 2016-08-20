@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.slackloadingview;
+package com.ywg.androidcommon.widget.SlackLoadingView;
 
 import android.animation.Animator;
 

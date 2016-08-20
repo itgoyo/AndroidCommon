@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.toolbarpanel;
+package com.ywg.androidcommon.widget.ToolbarPanel;
 
 import android.content.Context;
 import android.content.res.Resources;

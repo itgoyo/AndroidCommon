@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.smarttablayout;
+package com.ywg.androidcommon.widget.SmartTabLayout;
 
 import android.support.v4.view.MarginLayoutParamsCompat;
 import android.support.v4.view.ViewCompat;

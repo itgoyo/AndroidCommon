@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.shinebutton.ShineButton;
+import com.ywg.androidcommon.widget.ShineButton.ShineButton;
 
 public class ShineButtonActivity extends AppCompatActivity {
 

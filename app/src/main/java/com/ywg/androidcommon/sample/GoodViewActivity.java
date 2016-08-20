@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.goodview.GoodView;
+import com.ywg.androidcommon.widget.GoodView.GoodView;
 
 public class GoodViewActivity extends AppCompatActivity {
 

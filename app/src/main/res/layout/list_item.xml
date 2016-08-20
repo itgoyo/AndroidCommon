@@ -34,7 +34,7 @@
         android:textColor="#999999"
         android:textSize="15sp" />
 
-    <com.ywg.androidcommon.widget.countdownview.CountdownView
+    <com.ywg.androidcommon.widget.CountdownView.CountdownView
         android:id="@+id/cv_countdownView"
         android:layout_width="90dp"
         android:layout_height="30dp"

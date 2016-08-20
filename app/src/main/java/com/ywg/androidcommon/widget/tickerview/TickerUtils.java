@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.tickerview;
+package com.ywg.androidcommon.widget.TickerView;
 
 /**
  * Static utility class for the ticker package. This class contains helper methods such as those

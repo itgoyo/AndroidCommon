@@ -10,7 +10,7 @@ import android.view.View;
 import com.ywg.androidcommon.R;
 import com.ywg.androidcommon.easyadapter.sample.ListViewActivity;
 import com.ywg.androidcommon.easyadapter.sample.RecyclerViewActivity;
-import com.ywg.androidcommon.widget.countdownview.CountdownView;
+import com.ywg.androidcommon.widget.CountdownView.CountdownView;
 
 public class CountdownViewActivity extends AppCompatActivity implements CountdownView.OnCountdownEndListener{
 

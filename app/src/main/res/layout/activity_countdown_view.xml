@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             app:timeTextColor="#FFFFFF"
             app:timeTextSize="20sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             app:timeTextColor="#FFFFFF"
             app:timeTextSize="30sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest211"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             app:timeTextColor="#FC903E"
             app:timeTextSize="17sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
             app:timeTextColor="#FFFFFF"
             app:timeTextSize="25sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
             app:timeTextColor="#444444"
             app:timeTextSize="60sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
             app:timeTextColor="#000000"
             app:timeTextSize="20sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
             app:timeTextColor="#000000"
             app:timeTextSize="22sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -184,7 +184,7 @@
             app:timeTextColor="#000000"
             app:timeTextSize="22sp" />
 
-        <com.ywg.androidcommon.widget.countdownview.CountdownView
+        <com.ywg.androidcommon.widget.CountdownView.CountdownView
             android:id="@+id/cv_countdownViewTest6"
             android:layout_width="120dp"
             android:layout_height="40dp"

@@ -13,7 +13,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.countdownview.CountdownView;
+import com.ywg.androidcommon.widget.CountdownView.CountdownView;
 
 import java.util.ArrayList;
 import java.util.List;

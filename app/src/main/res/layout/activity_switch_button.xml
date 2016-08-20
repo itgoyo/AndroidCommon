@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/style_default"/>
 
-        <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+        <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
             android:id="@+id/sb_default"
             style="@style/SwitchButtonStyle"
             android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_text"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:text="@string/style_nofade"/>
 
-        <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+        <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
             android:id="@+id/sb_nofade"
             style="@style/SwitchButtonStyle"
             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
 
             <TableRow>
 
-                <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+                <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                     android:id="@+id/sb_custom"
                     style="@style/SwitchButtonStyle"
                     android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                     app:kswThumbRadius="2dp"
                     app:kswTintColor="#49416E"/>
 
-                <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+                <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                     android:id="@+id/sb_custom_flyme"
                     style="@style/SwitchButtonStyle"
                     android:layout_width="wrap_content"
@@ -127,7 +127,7 @@
                     app:kswThumbHeight="16dp"
                     app:kswThumbWidth="16dp"/>
 
-                <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+                <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                     android:id="@+id/sb_custom_miui"
                     style="@style/SwitchButtonStyle"
                     android:layout_width="wrap_content"
@@ -154,7 +154,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_tint_color_0"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
@@ -162,7 +162,7 @@
                 android:checked="true"
                 app:kswTintColor="#B13254"/>
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_tint_color_1"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
@@ -170,7 +170,7 @@
                 android:checked="true"
                 app:kswTintColor="#FF5449"/>
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_tint_color_2"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
@@ -192,7 +192,7 @@
             android:orientation="horizontal">
 
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_ios"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
@@ -218,14 +218,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_disable"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:enabled="false"/>
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_disable_checked"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
@@ -245,14 +245,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_disable_control"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"/>
 
-            <com.ywg.androidcommon.widget.switchbutton.SwitchButton
+            <com.ywg.androidcommon.widget.SwitchButton.SwitchButton
                 android:id="@+id/sb_disable_control_no_event"
                 style="@style/SwitchButtonStyle"
                 android:layout_width="wrap_content"

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.ywg.androidcommon.sample.SmartTabLayoutActivity">
 
-    <com.ywg.androidcommon.widget.smarttablayout.SmartTabLayout
+    <com.ywg.androidcommon.widget.SmartTabLayout.SmartTabLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/smart_tab_layout"

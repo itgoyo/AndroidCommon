@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.tickerview;
+package com.ywg.androidcommon.widget.TickerView;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

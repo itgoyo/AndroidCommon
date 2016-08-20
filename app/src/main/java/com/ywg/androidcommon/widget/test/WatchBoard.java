@@ -12,7 +12,7 @@ import android.view.View;
 
 import com.ywg.androidcommon.R;
 import com.ywg.androidcommon.utils.klog.KLog;
-import com.ywg.androidcommon.widget.swipemenu.SizeUtil;
+import com.ywg.androidcommon.widget.SwipeMenu.SizeUtil;
 
 import java.util.Calendar;
 

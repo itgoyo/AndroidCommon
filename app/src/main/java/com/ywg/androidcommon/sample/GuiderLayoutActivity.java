@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.guiderlayout.GuiderLayout;
+import com.ywg.androidcommon.widget.GuiderLayout.GuiderLayout;
 
 public class GuiderLayoutActivity extends AppCompatActivity implements View.OnClickListener {
 

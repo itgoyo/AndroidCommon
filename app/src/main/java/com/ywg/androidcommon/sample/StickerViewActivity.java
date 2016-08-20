@@ -15,9 +15,9 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.stickerview.DialogDrawable;
-import com.ywg.androidcommon.widget.stickerview.FileUtil;
-import com.ywg.androidcommon.widget.stickerview.StickerView;
+import com.ywg.androidcommon.widget.StickerView.DialogDrawable;
+import com.ywg.androidcommon.widget.StickerView.FileUtil;
+import com.ywg.androidcommon.widget.StickerView.StickerView;
 
 import java.io.File;
 

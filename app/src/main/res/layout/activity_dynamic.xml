@@ -4,7 +4,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <com.ywg.androidcommon.widget.countdownview.CountdownView
+    <com.ywg.androidcommon.widget.CountdownView.CountdownView
         android:id="@+id/cv_countdownViewTestHasBg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
         app:timeTextColor="#FFFFFF"
         app:timeTextSize="22sp" />
 
-    <com.ywg.androidcommon.widget.countdownview.CountdownView
+    <com.ywg.androidcommon.widget.CountdownView.CountdownView
         android:id="@+id/cv_countdownViewTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.tickerview;
+package com.ywg.androidcommon.widget.TickerView;
 
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;

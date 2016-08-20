@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.spinnerloading;
+package com.ywg.androidcommon.widget.SpinnerLoading;
 
 public class Circle {
     public float[] center;

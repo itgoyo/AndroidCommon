@@ -22,7 +22,7 @@
         android:onClick="btnClick"
         android:text="reset" />
 
-    <com.ywg.androidcommon.widget.slackloadingview.SlackLoadingView
+    <com.ywg.androidcommon.widget.SlackLoadingView.SlackLoadingView
         android:id="@+id/loading_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

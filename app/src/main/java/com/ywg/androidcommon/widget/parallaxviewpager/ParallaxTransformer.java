@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.parallaxviewpager;
+package com.ywg.androidcommon.widget.ParallaxViewPager;
 
 import android.animation.FloatEvaluator;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.loadingview;
+package com.ywg.androidcommon.widget.LoadingView;
 
 import android.content.Context;
 import android.graphics.Canvas;

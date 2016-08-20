@@ -6,7 +6,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/background">
 
-    <com.ywg.androidcommon.widget.favorlayout.FavorLayout
+    <com.ywg.androidcommon.widget.FavorLayout.FavorLayout
         android:id="@+id/favor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

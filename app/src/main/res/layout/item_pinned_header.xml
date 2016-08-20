@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:orientation="vertical" android:layout_width="match_parent"
-                android:layout_height="28dp"
-                android:background="#e5e5e5">
-    <TextView
-        android:id="@+id/city_tip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="16dp"/>
-</RelativeLayout>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/city_tip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#55001F3F"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    tools:text="Animals starting with A"/>

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.metaballloading;
+package com.ywg.androidcommon.widget.MetabalLloading;
 
 import android.content.Context;
 import android.graphics.Canvas;

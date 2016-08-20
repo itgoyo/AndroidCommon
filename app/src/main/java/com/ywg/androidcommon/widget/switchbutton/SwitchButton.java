@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.switchbutton;
+package com.ywg.androidcommon.widget.SwitchButton;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;

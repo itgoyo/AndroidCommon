@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.swipemenu;
+package com.ywg.androidcommon.widget.SwipeMenu;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

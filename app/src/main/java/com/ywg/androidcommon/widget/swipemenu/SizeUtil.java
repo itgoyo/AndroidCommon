@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.swipemenu;
+package com.ywg.androidcommon.widget.SwipeMenu;
 
 import android.app.Activity;
 import android.content.Context;

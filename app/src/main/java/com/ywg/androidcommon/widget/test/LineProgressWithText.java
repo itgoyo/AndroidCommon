@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.widget.ProgressBar;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.swipemenu.SizeUtil;
+import com.ywg.androidcommon.widget.SwipeMenu.SizeUtil;
 
 /**
  * 水平带文字的进度条

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.spinnerloading;
+package com.ywg.androidcommon.widget.SpinnerLoading;
 
 public class SpinnerLoadingUtils {
     public static  float[] getVector(float radians, float length) {

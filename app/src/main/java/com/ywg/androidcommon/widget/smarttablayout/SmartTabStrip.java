@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.smarttablayout;
+package com.ywg.androidcommon.widget.SmartTabLayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;

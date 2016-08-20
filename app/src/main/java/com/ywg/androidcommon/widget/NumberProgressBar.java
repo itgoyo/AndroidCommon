@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.numberprogressbar;
+package com.ywg.androidcommon.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -500,5 +500,11 @@ public class NumberProgressBar extends View {
 
     public void setOnProgressBarListener(OnProgressBarListener listener){
         mListener = listener;
+    }
+
+
+    public interface OnProgressBarListener {
+
+        void onProgressChange(int current, int max);
     }
 }

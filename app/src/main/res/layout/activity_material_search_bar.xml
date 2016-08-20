@@ -6,7 +6,7 @@
                 android:background="@color/colorPrimaryDark"
                 xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.ywg.androidcommon.widget.materialsearchbar.MaterialSearchBar
+    <com.ywg.androidcommon.widget.MaterialSearchBar.MaterialSearchBar
         app:speechMode="true"
         app:hint="Custom hint"
         app:maxSuggestionsCount="10"

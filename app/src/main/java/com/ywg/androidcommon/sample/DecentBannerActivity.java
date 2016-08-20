@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.decentbanner.DecentBanner;
+import com.ywg.androidcommon.widget.DecentBanner.DecentBanner;
 
 import java.util.ArrayList;
 import java.util.List;

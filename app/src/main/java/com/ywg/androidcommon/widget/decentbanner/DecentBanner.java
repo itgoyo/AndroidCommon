@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.decentbanner;
+package com.ywg.androidcommon.widget.DecentBanner;
 
 import android.content.Context;
 import android.graphics.Bitmap;

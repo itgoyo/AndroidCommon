@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.guillotinemenu;
+package com.ywg.androidcommon.widget.GuillotineMenu;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;

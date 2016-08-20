@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.switchbutton;
+package com.ywg.androidcommon.widget.SwitchButton;
 
 import android.content.res.ColorStateList;
 

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.blurimageview;
+package com.ywg.androidcommon.widget.BlurImageView;
 
 import android.content.Context;
 import android.graphics.Canvas;

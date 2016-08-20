@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.goodview;
+package com.ywg.androidcommon.widget.GoodView;
 
 import android.graphics.Color;
 

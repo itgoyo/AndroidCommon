@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.drawingboard;
+package com.ywg.androidcommon.widget.DrawingBoard;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.guillotinemenu;
+package com.ywg.androidcommon.widget.GuillotineMenu;
 
 /**
  * Created by Dmytro Denysenko on 5/6/15.

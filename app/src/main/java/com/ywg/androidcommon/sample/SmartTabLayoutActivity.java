@@ -8,7 +8,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.smarttablayout.SmartTabLayout;
+import com.ywg.androidcommon.widget.SmartTabLayout.SmartTabLayout;
 
 import java.util.ArrayList;
 import java.util.List;

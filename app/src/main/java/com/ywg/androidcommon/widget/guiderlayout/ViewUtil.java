@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.guiderlayout;
+package com.ywg.androidcommon.widget.GuiderLayout;
 
 import android.graphics.Matrix;
 import android.view.View;

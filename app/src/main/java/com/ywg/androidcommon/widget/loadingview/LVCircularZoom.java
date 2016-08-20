@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.loadingview;
+package com.ywg.androidcommon.widget.LoadingView;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.headerfooterrecyclerview;
+package com.ywg.androidcommon.widget.HeaderFooterRecyclerView;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

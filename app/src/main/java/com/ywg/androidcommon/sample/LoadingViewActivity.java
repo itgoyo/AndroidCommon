@@ -6,16 +6,16 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.ywg.androidcommon.widget.loadingview.LVCircular;
-import com.ywg.androidcommon.widget.loadingview.LVCircularCD;
+import com.ywg.androidcommon.widget.LoadingView.LVCircular;
+import com.ywg.androidcommon.widget.LoadingView.LVCircularCD;
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.loadingview.LVCircularJump;
-import com.ywg.androidcommon.widget.loadingview.LVCircularRing;
-import com.ywg.androidcommon.widget.loadingview.LVCircularSmile;
-import com.ywg.androidcommon.widget.loadingview.LVCircularZoom;
-import com.ywg.androidcommon.widget.loadingview.LVEatBeans;
-import com.ywg.androidcommon.widget.loadingview.LVNews;
-import com.ywg.androidcommon.widget.loadingview.LVPlayBall;
+import com.ywg.androidcommon.widget.LoadingView.LVCircularJump;
+import com.ywg.androidcommon.widget.LoadingView.LVCircularRing;
+import com.ywg.androidcommon.widget.LoadingView.LVCircularSmile;
+import com.ywg.androidcommon.widget.LoadingView.LVCircularZoom;
+import com.ywg.androidcommon.widget.LoadingView.LVEatBeans;
+import com.ywg.androidcommon.widget.LoadingView.LVNews;
+import com.ywg.androidcommon.widget.LoadingView.LVPlayBall;
 
 import java.util.Timer;
 import java.util.TimerTask;

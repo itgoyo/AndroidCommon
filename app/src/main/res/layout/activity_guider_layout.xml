@@ -26,7 +26,7 @@
         android:text="我是一个按钮"
         android:textColor="#ffffff" />
 
-    <com.ywg.androidcommon.widget.guiderlayout.GuiderLayout
+    <com.ywg.androidcommon.widget.GuiderLayout.GuiderLayout
         android:id="@+id/view_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -84,5 +84,5 @@
                 android:textColor="#ffffff" />
         </RelativeLayout>
 
-    </com.ywg.androidcommon.widget.guiderlayout.GuiderLayout>
+    </com.ywg.androidcommon.widget.GuiderLayout.GuiderLayout>
 </FrameLayout>

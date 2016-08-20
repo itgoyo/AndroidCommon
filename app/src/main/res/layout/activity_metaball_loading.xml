@@ -10,13 +10,13 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin">
 
-    <com.ywg.androidcommon.widget.metaballloading.MetaballView
+    <com.ywg.androidcommon.widget.MetabalLloading.MetaballView
         android:id="@+id/metaball"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true" />
 
-    <com.ywg.androidcommon.widget.metaballloading.MetaballDebugView
+    <com.ywg.androidcommon.widget.MetabalLloading.MetaballDebugView
         android:id="@+id/debug_metaball"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

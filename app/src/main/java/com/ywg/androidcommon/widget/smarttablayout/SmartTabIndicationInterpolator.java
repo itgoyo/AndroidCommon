@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.smarttablayout;
+package com.ywg.androidcommon.widget.SmartTabLayout;
 
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;

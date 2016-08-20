@@ -3,8 +3,8 @@ package com.ywg.androidcommon.sample.tickerview;
 import android.os.Bundle;
 
 import com.ywg.androidcommon.R;
-import com.ywg.androidcommon.widget.tickerview.TickerUtils;
-import com.ywg.androidcommon.widget.tickerview.TickerView;
+import com.ywg.androidcommon.widget.TickerView.TickerUtils;
+import com.ywg.androidcommon.widget.TickerView.TickerView;
 
 import java.util.Random;
 

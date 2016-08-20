@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.countdownview;
+package com.ywg.androidcommon.widget.CountdownView;
 
 /**
  * Dynamic configuration

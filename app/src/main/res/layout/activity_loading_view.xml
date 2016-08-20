@@ -29,7 +29,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVCircularCD
+                    <com.ywg.androidcommon.widget.LoadingView.LVCircularCD
                         android:id="@+id/lv_circularCD"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -42,7 +42,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVCircularRing
+                    <com.ywg.androidcommon.widget.LoadingView.LVCircularRing
                         android:id="@+id/lv_circularring"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -56,7 +56,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVCircular
+                    <com.ywg.androidcommon.widget.LoadingView.LVCircular
                         android:id="@+id/lv_circular"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -71,7 +71,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVCircularSmile
+                    <com.ywg.androidcommon.widget.LoadingView.LVCircularSmile
                         android:id="@+id/lv_circularSmile"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -92,7 +92,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVCircularJump
+                    <com.ywg.androidcommon.widget.LoadingView.LVCircularJump
                         android:id="@+id/lv_circularJump"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -106,7 +106,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVCircularZoom
+                    <com.ywg.androidcommon.widget.LoadingView.LVCircularZoom
                         android:id="@+id/lv_circularZoom"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -119,7 +119,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVPlayBall
+                    <com.ywg.androidcommon.widget.LoadingView.LVPlayBall
                         android:id="@+id/lv_playball"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
@@ -133,7 +133,7 @@
                     android:layout_weight="1"
                     android:gravity="center">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVNews
+                    <com.ywg.androidcommon.widget.LoadingView.LVNews
                         android:id="@+id/lv_news"
                         android:layout_width="35dp"
                         android:layout_height="35dp"
@@ -156,7 +156,7 @@
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp">
 
-                    <com.ywg.androidcommon.widget.loadingview.LVEatBeans
+                    <com.ywg.androidcommon.widget.LoadingView.LVEatBeans
                         android:id="@+id/lv_eatBeans"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"

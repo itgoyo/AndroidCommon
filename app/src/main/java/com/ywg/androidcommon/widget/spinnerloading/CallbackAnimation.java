@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.spinnerloading;
+package com.ywg.androidcommon.widget.SpinnerLoading;
 
 import android.view.animation.Animation;
 import android.view.animation.Transformation;

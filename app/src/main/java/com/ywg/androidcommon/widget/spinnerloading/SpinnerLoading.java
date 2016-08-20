@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.spinnerloading;
+package com.ywg.androidcommon.widget.SpinnerLoading;
 
 import android.content.Context;
 import android.content.res.TypedArray;
