@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:slide="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <com.ywg.androidcommon.widget.SlideImageView
+            android:id="@+id/img_vertical_slide"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            slide:source="@drawable/long_background"
+            slide:axis="vertical"/>
+
+        <com.ywg.androidcommon.widget.SlideImageView
+            android:id="@+id/img_horizontal_slide"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            slide:source="@drawable/wide_background"
+            slide:axis="horizontal"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:alpha="0.75"
+        android:padding="75dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

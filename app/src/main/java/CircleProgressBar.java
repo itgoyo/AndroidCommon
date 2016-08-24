@@ -1,3 +1,25 @@
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.LinearGradient;
+import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.RadialGradient;
+import android.graphics.Rect;
+import android.graphics.RectF;
+import android.graphics.Shader;
+import android.graphics.SweepGradient;
+import android.support.annotation.IntDef;
+import android.util.AttributeSet;
+import android.widget.ProgressBar;
+
+import com.ywg.androidcommon.R;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.reflect.Field;
+
 public class CircleProgressBar extends ProgressBar {
     private static final int LINE = 0;
     private static final int SOLID = 1;
@@ -98,27 +120,27 @@ public class CircleProgressBar extends ProgressBar {
     private void initFromAttributes(Context context, AttributeSet attrs) {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CircleProgressBar);
 
-        mBackgroundColor = a.getColor(R.styleable.CircleProgressBar_background_color, Color.TRANSPARENT);
+        mBackgroundColor = a.getColor(R.styleable.CircleProgressBar_cpb_background_color, Color.TRANSPARENT);
 
-        mDrawProgressText = a.getBoolean(R.styleable.CircleProgressBar_draw_progress_text, true);
+        mDrawProgressText = a.getBoolean(R.styleable.CircleProgressBar_cpb_draw_progress_text, true);
 
-        mLineCount = a.getInt(R.styleable.CircleProgressBar_line_count, DEFAULT_LINE_COUNT);
-        mProgressTextFormatPattern = a.hasValue(R.styleable.CircleProgressBar_progress_text_format_pattern) ?
-                a.getString(R.styleable.CircleProgressBar_progress_text_format_pattern) : DEFAULT_PATTERN;
+        mLineCount = a.getInt(R.styleable.CircleProgressBar_cpb_line_count, DEFAULT_LINE_COUNT);
+        mProgressTextFormatPattern = a.hasValue(R.styleable.CircleProgressBar_cpb_progress_text_format_pattern) ?
+                a.getString(R.styleable.CircleProgressBar_cpb_progress_text_format_pattern) : DEFAULT_PATTERN;
 
-        mStyle = a.getInt(R.styleable.CircleProgressBar_style, LINE);
-        mShader = a.getInt(R.styleable.CircleProgressBar_progress_shader, LINEAR);
-        mCap = a.hasValue(R.styleable.CircleProgressBar_progress_stroke_cap) ?
-                Paint.Cap.values()[a.getInt(R.styleable.CircleProgressBar_progress_stroke_cap, 0)] : Paint.Cap.BUTT;
+        mStyle = a.getInt(R.styleable.CircleProgressBar_cpb_style, LINE);
+        mShader = a.getInt(R.styleable.CircleProgressBar_cpb_progress_shader, LINEAR);
+        mCap = a.hasValue(R.styleable.CircleProgressBar_cpb_progress_stroke_cap) ?
+                Paint.Cap.values()[a.getInt(R.styleable.CircleProgressBar_cpb_progress_stroke_cap, 0)] : Paint.Cap.BUTT;
 
-        mLineWidth = a.getDimensionPixelSize(R.styleable.CircleProgressBar_line_width, UnitUtils.dip2px(getContext(), DEFAULT_LINE_WIDTH));
-        mProgressTextSize = a.getDimensionPixelSize(R.styleable.CircleProgressBar_progress_text_size, UnitUtils.dip2px(getContext(), DEFAULT_PROGRESS_TEXT_SIZE));
-        mProgressStrokeWidth = a.getDimensionPixelSize(R.styleable.CircleProgressBar_progress_stroke_width, UnitUtils.dip2px(getContext(), DEFAULT_PROGRESS_STROKE_WIDTH));
+        mLineWidth = a.getDimensionPixelSize(R.styleable.CircleProgressBar_cpb_line_width, dip2px(getContext(), DEFAULT_LINE_WIDTH));
+        mProgressTextSize = a.getDimensionPixelSize(R.styleable.CircleProgressBar_cpb_progress_text_size, dip2px(getContext(), DEFAULT_PROGRESS_TEXT_SIZE));
+        mProgressStrokeWidth = a.getDimensionPixelSize(R.styleable.CircleProgressBar_cpb_progress_stroke_width, dip2px(getContext(), DEFAULT_PROGRESS_STROKE_WIDTH));
 
-        mProgressStartColor = a.getColor(R.styleable.CircleProgressBar_progress_start_color, Color.parseColor(COLOR_FFF2A670));
-        mProgressEndColor = a.getColor(R.styleable.CircleProgressBar_progress_end_color, Color.parseColor(COLOR_FFF2A670));
-        mProgressTextColor = a.getColor(R.styleable.CircleProgressBar_progress_text_color, Color.parseColor(COLOR_FFF2A670));
-        mProgressBackgroundColor = a.getColor(R.styleable.CircleProgressBar_progress_background_color, Color.parseColor(COLOR_FFD3D3D5));
+        mProgressStartColor = a.getColor(R.styleable.CircleProgressBar_cpb_progress_start_color, Color.parseColor(COLOR_FFF2A670));
+        mProgressEndColor = a.getColor(R.styleable.CircleProgressBar_cpb_progress_end_color, Color.parseColor(COLOR_FFF2A670));
+        mProgressTextColor = a.getColor(R.styleable.CircleProgressBar_cpb_progress_text_color, Color.parseColor(COLOR_FFF2A670));
+        mProgressBackgroundColor = a.getColor(R.styleable.CircleProgressBar_cpb_progress_background_color, Color.parseColor(COLOR_FFD3D3D5));
 
         a.recycle();
     }
@@ -439,5 +461,10 @@ public class CircleProgressBar extends ProgressBar {
         mProgressPaint.setStrokeCap(cap);
         mProgressBackgroundPaint.setStrokeCap(cap);
         invalidate();
+    }
+
+    public int dip2px(Context context, float dpValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dpValue * scale + 0.5f);
     }
 }
