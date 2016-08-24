@@ -126,4 +126,22 @@
     </string>
     <string name="blurimageview_info_ch">上面是一个完整的BlurImageView,为了展示虚化加载效果,它会首先去获取小图并虚化显示给用户;同时去获取大图,一旦大图加载完毕,便进行显示.\n另外,BlurImageView会自动缓存图片.
     </string>
+
+    <!---->
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="reset">Random Reset</string>
+    <!---->
+
+    <!---->
+    <string name="showView">Show View</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="stop_until_animation_perform_completed">StopUtilAnimationCompleted</string>
+    <string name="title_activity_circle_progress_bar">CircleProgressBarActivity</string>
+    <!---->
+
+    <!---->
+    <string name="progress_text_format_pattern">t %d ps</string>
+    <!---->
 </resources>

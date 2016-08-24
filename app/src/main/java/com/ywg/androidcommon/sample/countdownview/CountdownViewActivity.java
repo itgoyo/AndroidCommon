@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.countdownview;
+package com.ywg.androidcommon.sample.CountdownView;
 
 import android.content.Intent;
 import android.os.AsyncTask;

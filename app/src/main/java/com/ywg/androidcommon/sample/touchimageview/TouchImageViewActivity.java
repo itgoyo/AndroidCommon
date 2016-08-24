@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.touchimageview;
+package com.ywg.androidcommon.sample.TouchImageView;
 
 import android.content.Intent;
 import android.os.Bundle;

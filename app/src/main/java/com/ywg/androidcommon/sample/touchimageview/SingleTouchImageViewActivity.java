@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.touchimageview;
+package com.ywg.androidcommon.sample.TouchImageView;
 
 import android.graphics.PointF;
 import android.graphics.RectF;

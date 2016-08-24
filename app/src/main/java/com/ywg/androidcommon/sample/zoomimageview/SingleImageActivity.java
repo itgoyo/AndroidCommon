@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.zoomimageview;
+package com.ywg.androidcommon.sample.ZoomImageView;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

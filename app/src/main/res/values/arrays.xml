@@ -103,4 +103,10 @@
         <item> 神舟20号</item>
         <item> 屌炸天的结尾</item>
     </string-array>
+
+    <string-array name="titles">
+        <item>Nav</item>
+        <item>Tab</item>
+        <item>Strip</item>
+    </string-array>
 </resources>

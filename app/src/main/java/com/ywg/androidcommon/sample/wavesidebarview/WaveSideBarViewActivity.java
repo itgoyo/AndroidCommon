@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.wavesidebarview;
+package com.ywg.androidcommon.sample.WaveSidebarView;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

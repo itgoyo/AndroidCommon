@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:padding="30dp">
+
+    <com.ywg.androidcommon.widget.SmileyLoadingView.SmileyLoadingView
+        android:id="@+id/loading_view"
+        xmlns:slv="http://schemas.android.com/apk/res-auto"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        slv:slv_strokeColor="#b3d8f3"
+        slv:slv_duration="2000"
+        slv:slv_strokeWidth="4dp"/>
+
+</RelativeLayout>

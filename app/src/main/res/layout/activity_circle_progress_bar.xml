@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/line_progress"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/solid_progress"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="solid"
+        app:cpb_progress_text_color="@color/holo_blue_light"
+        app:cpb_progress_stroke_width="3dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/custom_progress1"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="line"
+        app:cpb_progress_stroke_width="1dp"
+        app:cpb_progress_background_color="@color/holo_darker_gray"
+        app:cpb_progress_start_color="@color/holo_green_light"
+        app:cpb_progress_end_color="@color/holo_red_light"
+        app:cpb_progress_text_color="@color/holo_blue_light"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/custom_progress2"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="solid"
+        app:cpb_progress_shader="radial"
+        app:cpb_progress_stroke_width="1dp"
+        app:cpb_progress_text_format_pattern="@string/progress_text_format_pattern"
+        app:cpb_progress_background_color="@color/holo_darker_gray"
+        app:cpb_progress_start_color="@color/holo_red_light"
+        app:cpb_progress_text_color="@color/holo_red_light"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/custom_progress3"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="line"
+        app:cpb_line_width="2dp"
+        app:cpb_line_count="30"
+        app:cpb_progress_stroke_width="1dp"
+        app:cpb_progress_text_size="@dimen/progress_text_size"
+        app:cpb_progress_background_color="@color/holo_darker_gray"
+        app:cpb_progress_start_color="@color/holo_orange_light"
+        app:cpb_progress_text_color="@color/holo_red_light"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/custom_progress4"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="solid_line"
+        app:cpb_progress_stroke_width="4dp"
+        app:cpb_line_width="4dp"
+        app:cpb_line_count="30"
+        app:cpb_progress_stroke_cap="round"
+        app:cpb_progress_shader="sweep"
+        app:cpb_progress_background_color="@color/holo_darker_gray"
+        app:cpb_progress_start_color="@color/holo_purple"
+        app:cpb_progress_end_color="@android:color/transparent"
+        app:cpb_progress_text_color="@color/holo_purple"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/custom_progress5"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="solid_line"
+        app:cpb_progress_stroke_width="3dp"
+        app:cpb_progress_background_color="@color/holo_darker_gray"
+        app:cpb_progress_start_color="@color/holo_green_light"
+        app:cpb_progress_end_color="@color/holo_green_light"
+        app:cpb_progress_text_color="@color/holo_green_light"
+        app:cpb_background_color="@color/holo_purple"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+
+    <com.ywg.androidcommon.widget.CircleProgressBar
+        android:id="@+id/custom_progress6"
+        android:layout_marginTop="@dimen/default_margin"
+        app:cpb_style="line"
+        app:cpb_draw_progress_text="false"
+        app:cpb_progress_background_color="@color/holo_darker_gray"
+        app:cpb_progress_start_color="@color/holo_green_light"
+        app:cpb_progress_text_color="@color/holo_green_light"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

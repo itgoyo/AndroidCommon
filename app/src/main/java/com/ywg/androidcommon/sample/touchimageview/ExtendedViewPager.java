@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.touchimageview;
+package com.ywg.androidcommon.sample.TouchImageView;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

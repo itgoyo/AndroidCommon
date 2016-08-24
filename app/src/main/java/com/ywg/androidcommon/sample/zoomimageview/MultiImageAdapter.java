@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.zoomimageview;
+package com.ywg.androidcommon.sample.ZoomImageView;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;

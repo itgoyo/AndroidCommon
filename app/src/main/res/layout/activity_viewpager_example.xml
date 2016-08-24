@@ -4,7 +4,7 @@
     android:layout_height="match_parent" >
 
     <!-- ExtendedViewPager is a custom view and must be referred to by its full package name in XML -->
-	<com.ywg.androidcommon.sample.touchimageview.ExtendedViewPager
+	<com.ywg.androidcommon.sample.TouchImageView.ExtendedViewPager
 	    android:id="@+id/view_pager"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent" />

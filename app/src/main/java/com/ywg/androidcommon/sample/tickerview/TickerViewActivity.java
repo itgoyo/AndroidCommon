@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.tickerview;
+package com.ywg.androidcommon.sample.TickerView;
 
 import android.os.Bundle;
 

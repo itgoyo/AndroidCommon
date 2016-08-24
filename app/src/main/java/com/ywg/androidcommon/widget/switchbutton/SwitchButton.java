@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.widget.SwitchButton;
+package com.ywg.androidcommon.widget.switchbutton;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -15,7 +15,6 @@ import android.graphics.drawable.StateListDrawable;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.v4.content.ContextCompat;
-
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;

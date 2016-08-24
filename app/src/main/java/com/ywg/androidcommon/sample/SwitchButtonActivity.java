@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.CompoundButton;
 
-import com.ywg.androidcommon.widget.SwitchButton.SwitchButton;
+import com.ywg.androidcommon.widget.switchbutton.SwitchButton;
 import com.ywg.androidcommon.R;
 
 public class SwitchButtonActivity extends AppCompatActivity {

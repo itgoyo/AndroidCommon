@@ -12,4 +12,18 @@
     <item name="tabview_id" type="id" />
     <item name="tabview_fragment_container" type="id" />
     <!--TabView end-->
+
+    <!--CircleIndicator start-->
+    <item type="id" name="fragment_container"/>
+    <item type="id" name="toolbar"/>
+
+
+    <item type="id" name="viewpager"/>
+    <item type="id" name="indicator"/>
+    <item type="id" name="recycler_view"/>
+
+    <item type="id" name="add"/>
+    <item type="id" name="remove"/>
+    <item type="id" name="reset"/>
+    <!--CircleIndicator end-->
 </resources>

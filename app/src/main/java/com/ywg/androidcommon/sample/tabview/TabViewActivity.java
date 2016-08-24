@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.tabview;
+package com.ywg.androidcommon.sample.TabView;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <com.ywg.androidcommon.widget.CircleLoadingView
+        android:id="@+id/circle_loading_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:cl_circleRadius="40dp"
+        app:cl_circleStrokeSize="5dp"
+        app:cl_fillAnimationDuration="200"
+        app:cl_src="@drawable/maron5"/>
+
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle_loading_view"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

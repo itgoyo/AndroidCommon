@@ -1,4 +1,4 @@
-package com.ywg.androidcommon.sample.wavesidebarview;
+package com.ywg.androidcommon.sample.WaveSidebarView;
 
 import android.content.Context;
 import android.view.View;
